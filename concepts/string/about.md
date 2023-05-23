@@ -1,4 +1,4 @@
-### [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+# String ehk sõne
 
 Stringi kasutatakse märgijada esitamiseks ja manipuleerimiseks.
 
@@ -10,3 +10,5 @@ Stringi deklareeritakse jutumärkide (const text = "See on string";), ühekordse
 const name = "John Doe";
 let town = 'Tallinn';
 ```
+
+[Allikas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)

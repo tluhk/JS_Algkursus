@@ -17,3 +17,10 @@ Kursusel osalemiseks ei ole vaja eelnevat programmeerimiskogemust, kuid kursusel
 - Tsükkel
 - Testimine ja vigade otsimine
 
+## Kohtumised
+- [Esimene kohtumine](./lessons/loeng_01/about.md)
+- Teine kohtumine
+- Kolmas kohtumine
+- Neljas kohtumine
+- Viies kohtumine
+
