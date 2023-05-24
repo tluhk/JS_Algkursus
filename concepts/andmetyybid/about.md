@@ -24,4 +24,3 @@ JavaScriptis on näiteks järgmised andmestruktuurid:
 
 - [array ehk massiiv](../array/about.md)
 - [object ehk objekt](../object/about.md)
-- 
