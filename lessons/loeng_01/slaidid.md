@@ -1,0 +1,127 @@
+---
+marp: true
+---
+
+# Programmeerimise algõpetus Javascripti baasil
+
+Martti Raavel
+martti.raavel@tlu.ee
+
+---
+# Esimene loeng
+- Sissejuhatus
+- [Mis on programmeerimine?](../../concepts/programmeerimine/about.md)
+- [Mis on algoritm?](../../concepts/algoritm/about.md)
+- [Mis on Javascript?](../../concepts/javascript/about.md)
+- [Kuidas alustada Javascripti koodi kirjutamist?](../../concepts/alustamine/about.md)
+- [Programmi sisend ja väljund](../../concepts/suhtlemine/about.md)
+- [Muutuja](../../concepts/muutuja/about.md)
+- [Andmetüübid](../../concepts/andmetyybid/about.md)
+- [Operaatorid](../../concepts/operaatorid/about.md)
+- [Tingimuslause](../../concepts/tingimuslause/about.md)
+
+
+---
+# Sissejuhatus
+- Saame tuttavaks
+  - Kes, kust, miks?
+- Aine ülesehitus
+- Kodused tööd
+
+---
+# Aine ülesehitus
+- Loengud
+  - 24.05
+  - 31.05
+  - 07.06
+  - 14.06
+  - 21.06
+- Materjalid Github'is
+- Kodused tööd
+  - Iga loengu lõpus
+
+---
+# Mis on programmeerimine?
+
+**Programmeerimine** on protsess, kus luuakse ja rakendatakse **algoritme**, kasutades konkreetset **programmeerimiskeelt** (koodi), et arvutit mingisuguse ülesande täitmiseks juhtida.
+
+---
+# Mis on algoritm?
+Algoritm on täpne juhend või protseduur probleemi lahendamiseks või ülesande täitmiseks.
+
+___
+# Mis on JavaScript?
+
+JavaScript on 1990ndate keskpaigas loodud kõrgetasemeline, tõlgendatav programmeerimiskeel, mida peamiselt kasutatakse veebilehtede interaktiivseks muutmiseks.
+
+JavaScript on üks kolmest põhitehnoloogiast, mida kasutatakse veebilehtede ehitamiseks. Teised kaks on **HTML** (HyperText Markup Language), mida kasutatakse veebilehe struktuuri kirjeldamiseks, ja **CSS** (Cascading Style Sheets), mida kasutatakse veebilehe kujundamiseks.
+___
+# Kuidas alustada JavaScripti koodi kirjutamist?
+
+___
+# Programmi sisend ja väljund
+- alert();
+- confirm();
+- prompt();
+- console.log();
+
+---
+# Muutuja
+- Deklareerimine
+- Nimetamine
+
+---
+# Andmetüübid
+- String
+- Number
+- Boolean
+- Null
+- Undefined
+
+---
+# Operaatorid
+- Aritmeetilised operaatorid
+- Määramisoperaatorid
+- Võrdlusoperaatorid
+- Loogikaoperaatorid
+
+---
+# Aritmeetilised operaatorid
+- Liitmine
+- Lahutamine
+- Korrutamine
+- Jagamine
+
+---
+# Määramisoperaatorid
+- =
+- +=
+- -=
+- *=
+
+---
+# Võrdlusoperaatorid
+- ==
+- ===
+- !=
+- !==
+- \>
+- \>=
+- \<
+- \<=
+
+---
+# Loogikaoperaatorid
+- &&
+- ||
+- !
+
+---
+# Tingimuslause
+- if
+- else
+- else if
+
+---
+# Kodune ülesanne
+- [Kodune ülesanne](../../homework/lesson_01/about.md)

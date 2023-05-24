@@ -1,7 +1,10 @@
 # Esimene loeng
 
+[Esimese loengu slaidid](../loeng_01/slaidid.pdf)
+
 - Sissejuhatus
 - [Mis on programmeerimine?](../../concepts/programmeerimine/about.md)
+- [Mis on algoritm?](../../concepts/algoritm/about.md)
 - [Mis on Javascript?](../../concepts/javascript/about.md)
 - [Kuidas alustada Javascripti koodi kirjutamist?](../../concepts/alustamine/about.md)
 - [Programmi sisend ja väljund](../../concepts/suhtlemine/about.md)
@@ -23,3 +26,8 @@
   - [Määramisoperaatorid](../../concepts/maaramisOperaatorid/about.md)
   - [Võrdlusoperaatorid](../../concepts/vordlusOperaatorid/about.md)
   - [Loogikaoperaatorid](../../concepts/loogikaOperaatorid/about.md)
+- [Tingimuslause](../../concepts/tingimuslause/about.md)
+
+## Kodune ülesanne
+
+- [Kodune ülesanne](../../homework/lesson_01/about.md)
