@@ -27,6 +27,7 @@
   - [Võrdlusoperaatorid](../../concepts/vordlusOperaatorid/about.md)
   - [Loogikaoperaatorid](../../concepts/loogikaOperaatorid/about.md)
 - [Tingimuslause](../../concepts/tingimuslause/about.md)
+- [Tõeväärtustabelid](../../concepts/toevaartusTabel/about.md)
 - [Tüübiteisendus](../../concepts/tyybiteisendus/about.md)
 
 ## Kodune ülesanne
