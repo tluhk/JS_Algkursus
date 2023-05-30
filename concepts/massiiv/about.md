@@ -2,9 +2,9 @@
 
 Massiiv on andmestruktuur, mis võimaldab salvestada ühe muutuja alla palju erinevaid väärtuseid.
 
-Massiive kirjeldatakse üldiselt kui `loendilaadseid objekte`; need on põhimõtteliselt üksikud objektid, mis sisaldavad mitut loendisse salvestatud väärtust. Massiiviobjekte saab salvestada muutujatena ja käsitleda samamoodi nagu mis tahes muud tüüpi väärtusi, erinevus seisneb selles, et pääseme igale loendis olevale väärtusele eraldi juurde ning saame loendiga teha ülikasulikke ja tõhusaid asju, nagu näiteks tsüklit kasutades vaadata läbi kõik väärtused massivis ja teha iga väärtusega sama asja. Võib-olla on meil massiivi salvestatud hulk tooteartikleid ja nende hindu ning me tahame need kõik läbi vaadata ja arvele välja printida, liites samal ajal kõik hinnad kokku ja trükkides allosas välja koguhinna.
+Massiive kirjeldatakse üldiselt kui `loendilaadseid objekte`; need on põhimõtteliselt üksikud objektid, mis sisaldavad mitut loendisse salvestatud väärtust. Massiive saab salvestada muutujatena ja käsitleda samamoodi nagu mis tahes muud tüüpi väärtusi. Erinevus seisneb selles, et pääseme igale loendis olevale väärtusele eraldi juurde ning saame loendiga teha erinevaid asju, nagu näiteks tsüklit kasutades vaadata läbi kõik väärtused massivis ja teha iga väärtusega sama tegevust. Võib-olla on meil massiivi salvestatud hulk tooteartikleid ja nende hindu ning me tahame need kõik läbi vaadata ja arvele välja printida, liites samal ajal kõik hinnad kokku ja trükkides allosas välja koguhinna.
 
-Kui meil poleks massiive, peaksime salvestama iga üksuse eraldi muutujasse, seejärel kutsuma välja koodi, mis prindib ja lisab, iga üksuse jaoks eraldi. Selle väljakirjutamine oleks palju pikem, vähem tõhus ja veaohtlikum. Kui meil oleks arvele lisada 10 artiklit, oleks see juba tüütu, aga kuidas oleks 100 või 1000 kaubaga?
+Kui meil poleks massiive, peaksime salvestama iga üksuse eraldi muutujasse, seejärel kutsuma välja koodi, mis prindib ja lisab, iga üksuse jaoks eraldi. Selle väljakirjutamine oleks palju pikem, vähem tõhus ja veaohtlikum. Kui meil oleks vaja arvele lisada 10 artiklit, oleks see juba tüütu, aga kuidas oleks 100 või 1000 kaubaga?
 
 ## Massiivide loomine.
 
@@ -56,9 +56,9 @@ Massividega seotud funktsioone on oluliselt rohkem, täieliku nimekirja leiab [s
 
 ## Massiiv ja tsükkel
 
-Massiivis olevaid elemente saab 'läbi käia' tsüklite abil. Siin käsitleme praegu massiivide kasutamist for tsükliga. Tsüklit kasutatakse näiteks juhul, kui on vaja massiivi elementidega midagi teha, neid kontrollida mingi tingimuse suhtes või neid muuta.
+Massiivis olevaid elemente saab 'läbi käia' tsüklite abil. Siin käsitleme praegu massiivide kasutamist `for` tsükliga. Tsüklit kasutatakse näiteks juhul, kui on vaja massiivi elementidega midagi teha, neid kontrollida mingi tingimuse suhtes või neid muuta.
 
-For tsüklis on meil tavaliselt vaja eelnevalt teada, mitu korda tuleb tsükleid teha. Massiivide puhul võrduks tsüklite arv elemendi arvuga massiivis - näiteks, kui meil on massiiv, milles on 7 elementi, siis selleks, et kõik elemendid üle kontrollida, on mei vaja 7 tsükli iteratsiooni. Massiivis olevate elementide arvu saame teada length omaduse kaudu. Järgnevas näites on massiivis nädalapäevad, mis kuvatakse ükshaaval:
+`For` tsüklis on meil tavaliselt vaja eelnevalt teada, mitu korda tuleb tsükleid teha. Massiivide puhul võrduks tsüklite arv elemendi arvuga massiivis - näiteks, kui meil on massiiv, milles on 7 elementi, siis selleks, et kõik elemendid üle kontrollida, on mei vaja 7 tsükli iteratsiooni. Massiivis olevate elementide arvu saame teada `length` omaduse kaudu. Järgnevas näites on massiivis nädalapäevad, mis kuvatakse ükshaaval:
 
 ```javascript
 let days = [
@@ -92,3 +92,27 @@ for (let i = 0; i < prices.length; i ++) {
     console.log(`Toote hind käibemaksuga: ${prices[i] * 1.2} EUR`);
 }
 ```
+
+## Ülesanne 1
+
+ Kirjuta JavaScripti kood, mis loob massiivi, mis sisaldab arvud 1 kuni 10. Seejärel väljasta konsooli massiivi iga element, üksteise järel.
+
+ **Tulemus peaks olema selline:**
+
+```bash
+1
+2
+3
+4
+5   
+6
+7
+8
+9
+10
+```
+
+## Ülesanne 2
+
+Kirjuta JavaScripti kood, mis küsib kasutajalt 10 arvu. Iga arvu sisestamise järel lisa arv massiivi. Kui kasutaja on kõik arvud sisestanud, siis kuva konsoolis kõik arvud sisestamise järjekorras. Arvuta ka arvude summa ja aritmeetiline keskmine ning kuva need kasutajale.
+
