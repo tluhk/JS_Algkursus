@@ -4,6 +4,8 @@ JavaScriptis, nagu ka paljudes teistes programmeerimiskeeltes, saab objekte võr
 
 JavaScriptis on objekt omaduste ja tüübiga iseseisev olem. Võrrelge seda näiteks tassiga. Tass on ese, millel on omadused. Tassil on värv, kujundus, kaal, materjal, millest see on valmistatud jne. Samamoodi võivad JavaScripti objektidel olla omadused, mis määravad nende **omadused**.
 
+Objekte saab luua nagu teisigi muutujaid JavaScriptis, kasutades `let` või `const` märksõna. Objekt luuakse kasutades `{}` sulge. Sulgude sisse saab panna objekti omadused ja omaduse väärtuse, eraldades need omavahel kooloniga. Omadusi võib olla rohkem kui üks, eraldades need komaga.
+
 ```javascript
 const cup = {
   color: 'red',
