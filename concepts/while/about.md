@@ -29,3 +29,27 @@ Selles näites:
 See tsükkel väljastab konsooli numbrid 0 kuni 4 - see on viis iteratsiooni. Kui `i` saab väärtuseks 5, on tingimus `i < 5` väär ja tsükkel lõpetatakse.
 
 Tuleb olla ettevaatlik, et tsükli tingimus muutuks lõpuks vääraks, muidu võib tsükkel jätkuda lõpmatuseni, mis võib põhjustada programmi kinnijäämise. See on tuntud kui lõputu tsükkel. Näites kindlustab `i++` avaldis, et `i` väärtus suureneb iga iteratsiooni jooksul ja lõpuks muutub tingimus vääraks.
+
+## Ülesanne 1
+
+Kirjuta JavaScripti kood, mis kasutab while tsüklit, et väljastada kõikide arvude ruudud vahemikus 1 kuni 10.
+
+Tulemuse näide:
+
+```bash
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+```
+
+
+## Ülesanne 2
+
+Kirjuta JavaScripti kood, mis küsib kasutajalt numbreid ja väljastab sisestatud numbrite summa. Kui kasutaja sisestab 0, lõpeta küsimine ja väljasta numbrite summa ja numbrite keskmine. Kasuta selleks `while` tsüklit.
