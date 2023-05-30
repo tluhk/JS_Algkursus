@@ -124,4 +124,4 @@ ___
 
 ---
 # Kodune ülesanne
-- [Kodune ülesanne](../../homework/lesson_01/about.md)
+- [Kodune ülesanne](./homework.md)
