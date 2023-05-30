@@ -32,4 +32,4 @@
 
 ## Kodune ülesanne
 
-- [Kodune ülesanne](../../lessons/loeng_01/homework.md)
+- [Kodune ülesanne](./homework.md)
