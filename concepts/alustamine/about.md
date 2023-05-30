@@ -86,3 +86,11 @@ Sellisel kujul on võimalik lisada `index.html` faili mitu JavaScripti faili. N�
 ```
 
 See on kasulik, kui soovid oma koodi jagada mitmesse faili. Näiteks võib olla üks fail, kus on kogu kood, mis tegeleb kasutajaliidese loomisega ja teine fail, kus on kogu kood, mis tegeleb andmete töötlemisega. Sellisel juhul on lihtsam koodi muuta ja korda hoida.
+
+### Miks kirjutada JavaScripti kood eraldi faili?
+
+- Koodi on lihtsam lugeda
+- Koodi on lihtsam hallata
+- Koodi on lihtsam taaskasutada
+- Koodi on lihtsam testida
+- Koodi on lihtsam debugida
