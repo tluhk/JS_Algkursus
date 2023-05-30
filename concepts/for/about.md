@@ -25,3 +25,22 @@ Selles näites:
 Tsükli keha on selles koodiblokis `{ console.log(i); }`. See käivitatakse iga iteratsiooni ajal. Selles näites väljastab see konsooli `i` praeguse väärtuse.
 
 See tsükkel väljastab konsooli numbrid 0 kuni 4 - see on viis iteratsiooni. Kui `i` saab väärtuseks 5, on tingimus `i < 5` väär ja tsükkel lõpetatakse.
+
+## Ülesanne 1
+
+Kirjuta JavaScripti kood, mis kasutab `for` tsüklit ja väljastab konsooli arvud 1 kuni 25.
+
+## Ülesanne 2
+
+Kirjuta JavaScripti kood, mis kasutab for tsüklit, et leida ja väljastada konsooli kõik paarisarvud vahemikus 1 kuni 100.
+
+**Vastuse näide:**
+
+```bash
+2
+4
+6
+8
+10
+...
+```
