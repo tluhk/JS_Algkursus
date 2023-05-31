@@ -1,6 +1,6 @@
 # Kodutöö
 
-1. Tutvu esimese loenug materjalidega ja tee kõik näited ise järele. Soovitavalt kirjuta kood ise, mitte ära kopeeri. Kui koodi kirjutamine ei tule välja, siis kopeeri, aga püüa ikkagi aru saada, mida kood teeb.
+1. Tutvu esimese loengu materjalidega ja tee kõik näited ise järele. Soovitavalt kirjuta kood ise, mitte ära kopeeri. Kui koodi kirjutamine ei tule välja, siis kopeeri, aga püüa ikkagi aru saada, mida kood teeb.
 
 2. Proovi teha selline programm, mis küsib kasutajalt vanust ja vastavalt vanusele väljastab vastuseks:
 
