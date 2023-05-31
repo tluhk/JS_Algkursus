@@ -33,8 +33,6 @@ Mõtle kõigepealt läbi sammud, mida on teha vaja.
 
 Alusta kõige lihtsamast variandist.
 
-Proovi korduvast koodist teha eraldi funktsioonid, et kood oleks lühem ja paremini loetav.
-
 Kui jääd hätta, siis küsi abi.
 
 Ülesannete lahendused saada martti.raavel@tlu.ee
