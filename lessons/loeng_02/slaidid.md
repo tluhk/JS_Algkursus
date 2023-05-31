@@ -11,14 +11,6 @@ martti.raavel@tlu.ee
 # Teine loeng
 
 - Millest rääkisime eelmisel korral?
-    - Algoritmid
-    - Muutujad
-    - Sisend/väljund
-    - Andmetüübid
-    - Operaatorid
-    - Tingimuslause
-    - Tõeväärtustabelid
-    - Tüübiteisendus
 - Tsüklid ehk kordused
     - [`for` tsükkel](../../concepts/for/about.md)
     - [`while` tsükkel](../../concepts/while/about.md)
