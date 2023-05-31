@@ -1,4 +1,4 @@
-# Esimene loeng
+# Teine loeng
 
 [Teise loengu slaidid](../loeng_02/slaidid.pdf)
 
@@ -15,8 +15,6 @@
     - [`for` tsükkel](../../concepts/for/about.md)
     - [`while` tsükkel](../../concepts/while/about.md)
 - [JavaScript eraldi failis](../../concepts/alustamine/about.md#javascript-eraldi-failis)
-- [Funktsioonid](../../concepts/funktsioon/about.md)
-
 
 ## Kodune ülesanne
 
