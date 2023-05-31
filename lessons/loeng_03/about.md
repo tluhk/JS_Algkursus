@@ -1,13 +1,13 @@
-# Esimene loeng
+# Kolmas loeng
 
-[Teise loengu slaidid](../loeng_02/slaidid.pdf)
+[Kolmanda loengu slaidid](../loeng_03/slaidid.pdf)
 
 - Millest rääkisime eelmisel korral?
     - Tsüklid
         - `for` tsükkel
         - `while` tsükkel
     - Javascript eraldi failis
-    - Funktsioonid
+- [Funktsioonid](../../concepts/funktsioon/about.md)
 - [Massiiv](../../concepts/massiiv/about.md)
 - Tegevused massiividega
 - [Objektid](../../concepts/objektid/about.md)
