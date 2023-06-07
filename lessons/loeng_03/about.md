@@ -10,8 +10,6 @@
 - [Funktsioonid](../../concepts/funktsioon/about.md)
 - [Massiiv](../../concepts/massiiv/about.md)
 - Tegevused massiividega
-- [Objektid](../../concepts/objektid/about.md)
-
 
 ## Kodune ülesanne
 
