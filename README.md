@@ -20,7 +20,7 @@ Kursusel osalemiseks ei ole vaja eelnevat programmeerimiskogemust, kuid kursusel
 ## Kohtumised
 - [Esimene kohtumine](./lessons/loeng_01/about.md)
 - [Teine kohtumine](./lessons/loeng_02/about.md)
-- Kolmas kohtumine
+- [Kolmas kohtumine](./lessons/loeng_03/about.md)
 - Neljas kohtumine
 - Viies kohtumine
 
