@@ -1,6 +1,6 @@
 # Neljas loeng
 
-[Neljanda loengu slaidid](slaidid.pdf/slaidid.pdf)
+[Neljanda loengu slaidid](./slaidid.pdf)
 
 - Millest rääkisime eelmisel korral?
     - [Funktsioonid](../../concepts/funktsioon/about.md)
