@@ -2,6 +2,8 @@
 
 [Neljanda loengu slaidid](./slaidid.pdf)
 
+[Loengus kirjutatud kood](./app.js)
+
 - Millest rääkisime eelmisel korral?
     - [Funktsioonid](../../concepts/funktsioon/about.md)
     - [Massiiv](../../concepts/massiiv/about.md)
