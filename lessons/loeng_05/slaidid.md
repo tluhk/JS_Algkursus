@@ -54,7 +54,7 @@ console.log(cup.material);          // Kuvatakse ceramic
 ```
 
 ---
-# Obejkti omadused
+# Objekti omadused
 
 Objekti omadusteks võivad ka olla muud andmestruktuurid ja funktsioonid.
 
