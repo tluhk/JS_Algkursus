@@ -1,6 +1,6 @@
-# Neljas loeng
+# Viies loeng loeng
 
-[Neljanda loengu slaidid](./slaidid.pdf)
+[Viienda loengu slaidid](./slaidid.pdf)
 
 [Loengus kirjutatud kood](./app.js)
 
