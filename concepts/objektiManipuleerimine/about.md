@@ -30,7 +30,7 @@ console.log(person); // { name: 'Bob' }
 const person = {
   name: 'Alice'
 };
-deconste person.name;
+delete person.name;
 
 console.log(person); // {}
 ```
