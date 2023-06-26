@@ -4,7 +4,7 @@ Martti Raavel
 martti.raavel@tlu.ee
 
 ---
-# Kolmas loeng
+# Viies loeng
 
 - Millest rääkisime eelmisel korral?
     - [Sisendi kontrollimine](../../concepts/sisendiKontrollimine/about.md)

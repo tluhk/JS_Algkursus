@@ -4,7 +4,7 @@ Martti Raavel
 martti.raavel@tlu.ee
 
 ---
-# Kolmas loeng
+# Neljas loeng
 
 - Millest rääkisime eelmisel korral?
     - [Funktsioonid](../../concepts/funktsioon/about.md)
