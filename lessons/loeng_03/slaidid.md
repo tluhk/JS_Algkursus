@@ -4,7 +4,7 @@ Martti Raavel
 martti.raavel@tlu.ee
 
 ---
-# Neljas loeng
+# Kolmas loeng
 
 - Millest rääkisime eelmisel korral?
 - Tsüklid ehk kordused
