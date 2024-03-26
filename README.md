@@ -7,6 +7,7 @@ Kursusel tutvustatakse programmeerimise põhimõtteid ja mõisteid, õpetatakse 
 Kursusel osalemiseks ei ole vaja eelnevat programmeerimiskogemust, kuid kursusel osaleja peab olema arvutikasutamise oskusega.
 
 ## Kursusel käsitletavad teemad:
+
 - Programmeerimisega seotud tööriistad
 - Programmeerimisega seotud mõisted
 - Algoritmid, avaldised, sisend, väljund
@@ -18,9 +19,9 @@ Kursusel osalemiseks ei ole vaja eelnevat programmeerimiskogemust, kuid kursusel
 - Testimine ja vigade otsimine
 
 ## Kohtumised
+
 - [Esimene kohtumine](./lessons/loeng_01/README.md)
 - [Teine kohtumine](./lessons/loeng_02/README.md)
 - [Kolmas kohtumine](./lessons/loeng_03/README.md)
 - [Neljas kohtumine](./lessons/loeng_04/README.md)
 - [Viies kohtumine](./lessons/loeng_05/README.md)
-

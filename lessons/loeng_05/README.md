@@ -1,5 +1,6 @@
 # Viies loeng loeng
 
+[Neljas loeng](../loeng_04/README.md)
 [Viienda loengu slaidid](./slaidid.pdf)
 
 [Loengus kirjutatud kood](./app.js)

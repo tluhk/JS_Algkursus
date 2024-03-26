@@ -1,6 +1,7 @@
 # Esimene loeng
 
 [Esimese loengu slaidid](../loeng_01/slaidid.pdf)
+[Teine loeng](../loeng_02/README.md)
 
 - Sissejuhatus
 - [Mis on programmeerimine?](../../concepts/programmeerimine/README.md)
