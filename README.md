@@ -6,7 +6,7 @@ Kursusel tutvustatakse programmeerimise põhimõtteid ja mõisteid, õpetatakse 
 
 Kursusel osalemiseks ei ole vaja eelnevat programmeerimiskogemust, kuid kursusel osaleja peab olema arvutikasutamise oskusega.
 
-## Kursusel käsitletavad teemad:
+## Kursusel käsitletavad teemad
 
 - Programmeerimisega seotud tööriistad
 - Programmeerimisega seotud mõisted

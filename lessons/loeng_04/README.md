@@ -1,10 +1,12 @@
 # Neljas loeng
 
-[Kolmas loeng](../loeng_03/README.md)
-[Neljanda loengu slaidid](./slaidid.pdf)
-[Viies loeng](../loeng_05/README.md)
+- [Kolmas loeng](../loeng_03/README.md)
+- [Neljanda loengu slaidid](./slaidid.pdf)
+- [Viies loeng](../loeng_05/README.md)
 
-[Loengus kirjutatud kood](./app.js)
+- [Loengus kirjutatud kood](./app.js)
+
+## Teemad
 
 - Millest rääkisime eelmisel korral?
   - [Funktsioonid](../../concepts/funktsioon/README.md)

@@ -1,8 +1,10 @@
 # Kolmas loeng
 
-[Teine loeng](../loeng_02/README.md)
-[Kolmanda loengu slaidid](../loeng_03/slaidid.pdf)
-[Neljas loeng](../loeng_04/README.md)
+- [Teine loeng](../loeng_02/README.md)
+- [Kolmanda loengu slaidid](../loeng_03/slaidid.pdf)
+- [Neljas loeng](../loeng_04/README.md)
+
+## Teemad
 
 - Millest rääkisime eelmisel korral?
   - Tsüklid
