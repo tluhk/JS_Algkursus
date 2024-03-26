@@ -8,11 +8,11 @@ martti.raavel@tlu.ee
 
 - Millest rääkisime eelmisel korral?
 - Tsüklid ehk kordused
-    - [`for` tsükkel](../../concepts/for/about.md)
-    - [`while` tsükkel](../../concepts/while/about.md)
-    - [JavaScript eraldi failis](../../concepts/alustamine/about.md#javascript-eraldi-failis)
-- [Funktsioonid](../../concepts/funktsioon/about.md)
-- [Massiiv](../../concepts/massiiv/about.md)
+    - [`for` tsükkel](../../concepts/for/README.md)
+    - [`while` tsükkel](../../concepts/while/README.md)
+    - [JavaScript eraldi failis](../../concepts/alustamine/README.md#javascript-eraldi-failis)
+- [Funktsioonid](../../concepts/funktsioon/README.md)
+- [Massiiv](../../concepts/massiiv/README.md)
 - Tegevused massiividega
 
 ---

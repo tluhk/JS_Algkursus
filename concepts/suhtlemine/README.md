@@ -12,10 +12,10 @@ Kuna JavaScript on mõeldud algselt töötama veebilehitsejas ja mõjutama seda,
 
 Nendeks funktsioonideks on:
 
-- [alert()](../alert/about.md)
-- [prompt()](../prompt/about.md)
-- [confirm()](../confirm/about.md)
-- [console.log()](../console.log/about.md)
+- [alert()](../alert/README.md)
+- [prompt()](../prompt/README.md)
+- [confirm()](../confirm/README.md)
+- [console.log()](../console.log/README.md)
 
 Nende funktsioonide abil on võimalik kasutajale teateid kuvada, kasutajalt sisendit küsida ja kasutaja sisendit koguda. Kuigi need ei pruugi olla kõige efektiivsemad viisid kasutajaga suhtlemiseks, on need siiski väga kasulikud ja võimaldavad meil JavaScripti põhitõdesid õppida.
 

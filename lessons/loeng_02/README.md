@@ -12,9 +12,9 @@
     - Tõeväärtustabelid
     - Tüübiteisendus
 - Tsüklid ehk kordused
-    - [`for` tsükkel](../../concepts/for/about.md)
-    - [`while` tsükkel](../../concepts/while/about.md)
-- [JavaScript eraldi failis](../../concepts/alustamine/about.md#javascript-eraldi-failis)
+    - [`for` tsükkel](../../concepts/for/README.md)
+    - [`while` tsükkel](../../concepts/while/README.md)
+- [JavaScript eraldi failis](../../concepts/alustamine/README.md#javascript-eraldi-failis)
 
 ## Kodune ülesanne
 

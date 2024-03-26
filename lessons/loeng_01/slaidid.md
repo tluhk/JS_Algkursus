@@ -10,15 +10,15 @@ martti.raavel@tlu.ee
 ---
 # Esimene loeng
 - Sissejuhatus
-- [Mis on programmeerimine?](../../concepts/programmeerimine/about.md)
-- [Mis on algoritm?](../../concepts/algoritm/about.md)
-- [Mis on Javascript?](../../concepts/javascript/about.md)
-- [Kuidas alustada Javascripti koodi kirjutamist?](../../concepts/alustamine/about.md)
-- [Programmi sisend ja väljund](../../concepts/suhtlemine/about.md)
-- [Muutuja](../../concepts/muutuja/about.md)
-- [Andmetüübid](../../concepts/andmetyybid/about.md)
-- [Operaatorid](../../concepts/operaatorid/about.md)
-- [Tingimuslause](../../concepts/tingimuslause/about.md)
+- [Mis on programmeerimine?](../../concepts/programmeerimine/README.md)
+- [Mis on algoritm?](../../concepts/algoritm/README.md)
+- [Mis on Javascript?](../../concepts/javascript/README.md)
+- [Kuidas alustada Javascripti koodi kirjutamist?](../../concepts/alustamine/README.md)
+- [Programmi sisend ja väljund](../../concepts/suhtlemine/README.md)
+- [Muutuja](../../concepts/muutuja/README.md)
+- [Andmetüübid](../../concepts/andmetyybid/README.md)
+- [Operaatorid](../../concepts/operaatorid/README.md)
+- [Tingimuslause](../../concepts/tingimuslause/README.md)
 
 
 ---

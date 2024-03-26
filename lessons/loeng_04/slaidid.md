@@ -7,12 +7,12 @@ martti.raavel@tlu.ee
 # Neljas loeng
 
 - Millest rääkisime eelmisel korral?
-    - [Funktsioonid](../../concepts/funktsioon/about.md)
-    - [Massiiv](../../concepts/massiiv/about.md)
+    - [Funktsioonid](../../concepts/funktsioon/README.md)
+    - [Massiiv](../../concepts/massiiv/README.md)
     - Tegevused massiividega
-- [Sisendi kontrollimine](../../concepts/sisendiKontrollimine/about.md)
-- [Tegevused stringidega](../../concepts/string/about.md#stringi-meetodid)
-- [Math funktsioonid](../../concepts/mathMeetodid/about.md)
+- [Sisendi kontrollimine](../../concepts/sisendiKontrollimine/README.md)
+- [Tegevused stringidega](../../concepts/string/README.md#stringi-meetodid)
+- [Math funktsioonid](../../concepts/mathMeetodid/README.md)
 - Harjutused
 
 ---

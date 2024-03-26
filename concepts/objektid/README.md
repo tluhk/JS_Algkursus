@@ -68,4 +68,4 @@ Viimased kaks näidet näitavad, et objekti omadusteks võivad olla nii primitii
 
 ## Objektide manipuleerimine
 
-[Objekti manipuleerimine](../objektiManipuleerimine/about.md)
+[Objekti manipuleerimine](../objektiManipuleerimine/README.md)

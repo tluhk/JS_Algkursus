@@ -8,4 +8,4 @@
 - Kui kasutaja on noorem, kui 21, siis öeldakse vastuseks `Oled liiga noor`
 - Kui vanus on 21, siis vastab programm `Täpselt piiri peal`
 
-Ära unusta peale vanuse küsimist vanus numbri kujule muuta ([tüübi teisendust](../../concepts/tyybiteisendus/about.md) e. type casting).
+Ära unusta peale vanuse küsimist vanus numbri kujule muuta ([tüübi teisendust](../../concepts/tyybiteisendus/README.md) e. type casting).

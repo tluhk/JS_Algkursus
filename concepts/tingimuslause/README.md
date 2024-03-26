@@ -37,4 +37,4 @@ Tingimuslause on programmeerimises kasutatav kontrollstruktuur, mis võimaldab k
 
 Need tingimuslaused võimaldavad koodi dünaamiliselt juhtida, tehes otsuseid vastavalt muutujate väärtustele või funktsioonide tulemustele.
 
-Tingimuslausete moodustamisel on abiks tõeväärtustabelid. Tõeväärtustabelid on tabelid, mis näitavad, milline on loogilise avaldise tulemus sõltuvalt sellest, millised on avaldise muutujate väärtused. Tõeväärtustabelitest saad lugeda [siit](../toevaartusTabel/about.md).
+Tingimuslausete moodustamisel on abiks tõeväärtustabelid. Tõeväärtustabelid on tabelid, mis näitavad, milline on loogilise avaldise tulemus sõltuvalt sellest, millised on avaldise muutujate väärtused. Tõeväärtustabelitest saad lugeda [siit](../toevaartusTabel/README.md).

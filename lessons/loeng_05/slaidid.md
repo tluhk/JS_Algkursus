@@ -7,10 +7,10 @@ martti.raavel@tlu.ee
 # Viies loeng
 
 - Millest rääkisime eelmisel korral?
-    - [Sisendi kontrollimine](../../concepts/sisendiKontrollimine/about.md)
-  - [Tegevused stringidega](../../concepts/string/about.md#stringi-meetodid)
-  - [Math funktsioonid](../../concepts/mathMeetodid/about.md)
-- [Objektid](../../concepts/objektid/about.md)
+    - [Sisendi kontrollimine](../../concepts/sisendiKontrollimine/README.md)
+  - [Tegevused stringidega](../../concepts/string/README.md#stringi-meetodid)
+  - [Math funktsioonid](../../concepts/mathMeetodid/README.md)
+- [Objektid](../../concepts/objektid/README.md)
 - Harjutused
 
 ---

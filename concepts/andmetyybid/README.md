@@ -6,13 +6,13 @@ JavaScriptis on primitiivid (primitiivne väärtus, primitiivne andmetüüp) and
 
 Primitiivseid andmetüüpe JavaScriptis on seitse:
 
-- [string ehk sõne](../string/about.md)
-- [number](../number/about.md)
-- [bigint](../bigint/about.md)
-- [boolean](../boolean/about.md)
-- [undefined](../undefined/about.md)
-- [null](../null/about.md)
-- [symbol](../symbol/about.md)
+- [string ehk sõne](../string/README.md)
+- [number](../number/README.md)
+- [bigint](../bigint/README.md)
+- [boolean](../boolean/README.md)
+- [undefined](../undefined/README.md)
+- [null](../null/README.md)
+- [symbol](../symbol/README.md)
 
 ## Andmestruktuurid
 
@@ -22,5 +22,5 @@ Andmestruktuurid on objektid, mis võimaldavad meil kirjeldada andmeid, mis koos
 
 JavaScriptis on näiteks järgmised andmestruktuurid:
 
-- [array ehk massiiv](../array/about.md)
-- [object ehk objekt](../object/about.md)
+- [array ehk massiiv](../array/README.md)
+- [object ehk objekt](../object/README.md)

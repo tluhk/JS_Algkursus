@@ -24,7 +24,7 @@ Seega, lühidalt öeldes, operaatorid on vahendid, mida kasutatakse avaldiste lo
 ## Operaatorid
 
 JavaScriptis on mitut tüüpi operaatoreid, mida saate kasutada erinevate arvutuste tegemiseks või andmete manipuleerimiseks. Siin on mõned kõige levinumad operaatorite tüübid:
-- [Aritmeetilised operaatorid](../aritmeetilisedOperaatorid/about.md)
-- [Võrdlusoperaatorid](../vordlusOperaatorid/about.md)
-- [Loogikaoperaatorid](../loogikaOperaatorid/about.md)
-- [Määramisoperaatorid](../maaramisOperaatorid/about.md)
+- [Aritmeetilised operaatorid](../aritmeetilisedOperaatorid/README.md)
+- [Võrdlusoperaatorid](../vordlusOperaatorid/README.md)
+- [Loogikaoperaatorid](../loogikaOperaatorid/README.md)
+- [Määramisoperaatorid](../maaramisOperaatorid/README.md)

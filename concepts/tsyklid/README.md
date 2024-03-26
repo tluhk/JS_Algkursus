@@ -17,8 +17,8 @@ Lisaks vähendavad tsüklid vigade tõenäosust. Kui peate midagi käsitsi korda
 Kokkuvõtteks, tsüklid on programmeerimises olulised tööriistad, mis muudavad meie koodi lühemaks, loetavamaks ja efektiivsemaks.
 
 JavaScriptis on mitmeid erinevaid tsüklilauseid, mida saab kasutada teatud koodibloki korduvaks käivitamiseks. Siin on mõned peamised tsüklid:
-- [`for` tsükkel](../for/about.md)
-- [`while` tsükkel](../while/about.md)
-- [`do...while` tsükkel](../doWhile/about.md)
-- [`for...in` tsükkel](../forIn/about.md)
-- [`for...of` tsükkel](../forOf/about.md)
+- [`for` tsükkel](../for/README.md)
+- [`while` tsükkel](../while/README.md)
+- [`do...while` tsükkel](../doWhile/README.md)
+- [`for...in` tsükkel](../forIn/README.md)
+- [`for...of` tsükkel](../forOf/README.md)

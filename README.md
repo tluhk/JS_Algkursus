@@ -18,9 +18,9 @@ Kursusel osalemiseks ei ole vaja eelnevat programmeerimiskogemust, kuid kursusel
 - Testimine ja vigade otsimine
 
 ## Kohtumised
-- [Esimene kohtumine](./lessons/loeng_01/about.md)
-- [Teine kohtumine](./lessons/loeng_02/about.md)
-- [Kolmas kohtumine](./lessons/loeng_03/about.md)
-- [Neljas kohtumine](./lessons/loeng_04/about.md)
-- [Viies kohtumine](./lessons/loeng_05/about.md)
+- [Esimene kohtumine](./lessons/loeng_01/README.md)
+- [Teine kohtumine](./lessons/loeng_02/README.md)
+- [Kolmas kohtumine](./lessons/loeng_03/README.md)
+- [Neljas kohtumine](./lessons/loeng_04/README.md)
+- [Viies kohtumine](./lessons/loeng_05/README.md)
 
