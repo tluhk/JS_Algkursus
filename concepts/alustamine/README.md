@@ -1,96 +1,212 @@
-# Kuidas alustada JavaScripti koodi kirjutamist?
+# JavaScripti kirjutamise alustamine koodieditoris
 
-JavaScripti koodi kirjutamine ja testimine on üsna lihtne, kuna see nõuab minimaalselt seadistust. Siin on mõned sammud, mida saab järgida, et alustada JavaScripti koodi kirjutamist.
+## Sisukord
 
-- Tekstiredaktor: Esimene asi, mida vajate, on tekstiredaktor. Saate kasutada mis tahes tekstiredaktorit, mida soovite. Mõned populaarsed valikud on *Visual Studio Code*, *Atom*, *Sublime Text* jms.
+- [JavaScripti kirjutamise alustamine koodieditoris](#javascripti-kirjutamise-alustamine-koodieditoris)
+  - [Sisukord](#sisukord)
+  - [Sissejuhatus](#sissejuhatus)
+    - [Miks on vaja HTML-i?](#miks-on-vaja-html-i)
+  - [Õpiväljundid](#õpiväljundid)
+  - [Minimaalne HTML-kood JavaScripti lisamiseks](#minimaalne-html-kood-javascripti-lisamiseks)
+  - [JavaScripti lisamise viisid](#javascripti-lisamise-viisid)
+    - [1. *Inline* (reasisene) skript](#1-inline-reasisene-skript)
+    - [2. *Internal* (sisemine) skript](#2-internal-sisemine-skript)
+    - [3. *External* (väline) skript](#3-external-väline-skript)
+  - [Milline meetod valida?](#milline-meetod-valida)
+    - [*Inline* (reasisene) skript](#inline-reasisene-skript)
+    - [*Internal* (sisemine) skript](#internal-sisemine-skript)
+    - [*External* (väline) skript](#external-väline-skript)
+  - [Harjutusülesanded](#harjutusülesanded)
+  - [Allikad](#allikad)
 
-- Veebilehitseja: Kuna JavaScripti koodi käivitatakse veebilehitsejas, siis on vaja veebilehitsejat, milles saab oma koodi käivitada. Kõige populaarsemad veebilehitsejad on *Google Chrome*, *Mozilla Firefox*, *Microsoft Edge* jms. Kui sul on veebilehitseja juba olemas, siis võid selle sammu vahele jätta.
+## Sissejuhatus
 
-- HTML-fail: Kuna veebilehitsejas töötav JavaScripti kood laetakse läbi HTML-i, siis on vajalik luua HTML-fail, milles saate oma JavaScripti koodi käivitada. Lihtsaim viis HTML-faili loomiseks on kasutada tekstiredaktorit ja salvestada fail laiendiga `.html`. Alustamiseks võiks olla järgmine HTML-fail:
+Selles peatükis õpid, kuidas alustada JavaScripti kirjutamist koodieditoris, milline on minimaalne HTML-kood, millele JavaScripti lisada, ning millistel kolmel erineval viisil saab JavaScripti HTML-dokumendile lisada. Eesmärk on luua minimaalne võimekus, et saaksid hakata JavaScripti õppima ja katsetama.
+
+### Miks on vaja HTML-i?
+
+JavaScripti eesmärk on sageli manipuleerida ja täiustada veebilehtede käitumist ja interaktiivsust. Selleks, et saaksime JavaScripti koodi testida ja käivitada, vajame HTML-dokumenti, kuhu JavaScripti koodi saab lisada. HTML pakub struktuuri ja konteksti, mille kaudu JavaScript saab suhelda kasutajaliidesega, võimaldades dünaamilisi ja interaktiivseid funktsioone. Kuigi selle kursuse raames me ei tegele kasutajaliidese ja veebilehe muutmisega, siis selleks, et me saaksime JavaScripti koodi kirjutada ja testida, on vaja HTML-dokumenti.
+
+## Õpiväljundid
+
+Selle õppetüki lõpuks peaksid õppijad suutma:
+
+- luua minimaalne HTML-kood JavaScripti lisamiseks;
+- lisada JavaScripti HTML-dokumendile kolmel erineval viisil;
+- mõista, kuidas JavaScripti kood ja HTML dokumendiga suhtlevad.
+
+## Minimaalne HTML-kood JavaScripti lisamiseks
+
+Alustame lihtsa HTML-struktuuriga, millele saame JavaScripti lisada. Järgmine näide näitab minimaalset HTML-koodi:
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripti Õppimine</title>
 </head>
 <body>
-  <script>
-  const everythingIsOk = confirm('Kas asi töötab?');
-  if (everythingIsOk) {
-    alert('Väga hea!');
-  } else {
-    alert(':(');
-  }
-  </script>
-</body>
-</html>
-```
-Eelnevas näites kirjutatakse JavaScripti kood `<script></script>` märgendite vahele. HTML faili avades käivitatakse *script* märgendite vahel olev JavaScript-i kood automaatselt. Kopeeri järgnev kood oma koodikirjutamise programmi, salvesta fail `index.html` nimega ja ava see fail veebilehitsejas. Kui kõik on õigesti tehtud, siis peaks veebilehitsejas avanema dialoogiaken, mis küsib kas kõik on korras. Kui vajutad *OK*, siis peaks avanema teine dialoogiaken, mis ütleb "Väga hea!". Kui vajutad *Cancel*, siis peaks avanema teine dialoogiaken, mis ütleb `:(`.
-
-- Veebilehitseja arendaja tööriistad: Veebilehitsejate arendaja tööriistad on väga kasulikud, kuna need võimaldavad sul näha oma koodi käitumist reaalajas. Kui kasutad *Google Chrome* veebilehitsejat, siis saad avada arendaja tööriistad, vajutades *Ctrl + Shift + I* või *F12*. Kui kasutad *Mozilla Firefox* veebilehitsejat, siis saad avada arendaja tööriistad, vajutades *Ctrl + Shift + I* või *F12*. Kui kasutad *Microsoft Edge* veebilehitsejat, siis saad avada arendaja tööriistad, vajutades *Ctrl + Shift + I* või *F12*.
-
-## JavaScript eraldi failis
-
-Kuigi JavaScriptiga alustades on kõige lihtsam kirjutada JavaScripti kood otse `HTML`-faili sisse, siis võib see üsna ruttu muutuda keeruliseks, kui koodi on palju. Seetõttu on hea mõte kirjutada oma JavaScripti kood eraldi faili. Selleks tuleb luua uus fail, mille laiendiks on `.js`. Näiteks `script.js`. Seejärel tuleb luua HTML-fail, millesse lisada `<script></script>` märgendite vahele järgnev kood:
-
-```html
-<script src="script.js"></script>
-```
-
-Kui nüüd avad HTML-faili veebilehitsejas, siis peaks JavaScripti kood käivituma. Kui kasutad arendaja tööriistu, siis peaksid nägema, et JavaScripti kood on laetud eraldi failist.
-
-Näiteks:
-
-Loo `index.html` fail, millesse lisa järgnev kood:
-
-```html
-  
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <script src="script.js"></script>
+    <h1>Tere tulemast JavaScripti maailma!</h1>
+    <script>
+        // Siin saab JavaScripti koodi kirjutada
+        console.log("JavaScript on lisatud!");
+    </script>
 </body>
 </html>
 ```
 
-Loo `index.html` faili kõrvale uus fail, mille nimeks on `script.js` ja lisa sinna järgnev kood:
+## JavaScripti lisamise viisid
 
-```js
-const everythingIsOk = confirm('Kas JS eraldi failis töötab?');
-if (everythingIsOk) {
-  alert('Väga hea!');
-} else {
-  alert(':(');
-}
-```
+HTML-dokumendile saab JavaScripti lisada kolmel erineval viisil:
 
-Kui nüüd avad veebilehitsejas `index.html` faili, siis peaks avanema dialoogiaken, mis küsib kas kõik on korras. Kui vajutad *OK*, siis peaks avanema teine dialoogiaken, mis ütleb "Väga hea!". Kui vajutad *Cancel*, siis peaks avanema teine dialoogiaken, mis ütleb `:(`. Kui juba küsimus ette tuleb, siis tähendab see, et `index.html` saab `script.js` failist kätte JavaScripti koodi ja edaspidi ei pea enam koodi `index.html` faili sees muutma.
+- **inline (reasisene) skriptina**,
+- **internal (sisemine) skriptina**,
+- **external (välise) skriptina**.
 
-Sellisel kujul on võimalik lisada `index.html` faili mitu JavaScripti faili. Näiteks:
+### 1. *Inline* (reasisene) skript
+
+*Inline*-skriptid on otse HTML-elementide sees, kasutades HTML-elementide atribuute, nagu `onclick` või `onload`. See meetod pole soovitatav suuremate projektide jaoks, kuid võib olla kasulik väikeste ja lihtsate skriptide jaoks.
 
 ```html
-<script src="script.js"></script>
-<script src="script2.js"></script>
-<script src="script3.js"></script>
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripti Õppimine</title>
+</head>
+<body>
+    <h1 onclick="alert('Tere!')">Klikka siia</h1>
+</body>
+</html>
 ```
 
-See on kasulik, kui soovid oma koodi jagada mitmesse faili. Näiteks võib olla üks fail, kus on kogu kood, mis tegeleb kasutajaliidese loomisega ja teine fail, kus on kogu kood, mis tegeleb andmete töötlemisega. Sellisel juhul on lihtsam koodi muuta ja korda hoida.
+### 2. *Internal* (sisemine) skript
 
-### Miks kirjutada JavaScripti kood eraldi faili?
+*Internal*-skriptid kirjutatakse HTML-dokumendi `<script>` elementide vahele, tavaliselt paigutatakse need `<head>` või `<body>` sektsiooni. Seda meetodit kasutatakse sageli väiksemate projektide või katsetuste jaoks.
 
-- Koodi on lihtsam lugeda
-- Koodi on lihtsam hallata
-- Koodi on lihtsam taaskasutada
-- Koodi on lihtsam testida
-- Koodi on lihtsam debugida
+```html
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripti Õppimine</title>
+    <script>
+        alert('Tere tulemast JavaScripti maailma!');
+    </script>
+</head>
+<body>
+    <h1>Tere tulemast JavaScripti maailma!</h1>
+</body>
+</html>
+```
+
+### 3. *External* (väline) skript
+
+*External*-skriptid kirjutatakse eraldi JavaScripti faili ja seejärel lingitakse HTML-dokumendiga, kasutades `<script>` elementi `src` atribuudiga. See meetod on soovitatav suuremate projektide jaoks, kuna see hoiab HTML ja JavaScripti koodi eraldi ja paremini hallatavaks.
+
+**`script.js` fail:**
+
+```javascript
+alert('Tere tulemast JavaScripti maailma!');
+```
+
+**HTML fail:**
+
+```html
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripti Õppimine</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Tere tulemast JavaScripti maailma!</h1>
+</body>
+</html>
+```
+
+## Milline meetod valida?
+
+### *Inline* (reasisene) skript
+
+**Kasutusotstarve:**
+
+- Väikeste ja lihtsate skriptide jaoks, kus on vaja kiiresti ja lihtsalt lisada interaktiivsust.
+- Väikeste eksperimentide ja testide jaoks, kus keerukus on madal ja skriptide korduvkasutamine pole oluline.
+
+**Eelised:**
+
+- Lihtne ja kiire lisamine.
+- Ei vaja eraldi faili loomist.
+
+**Puudused:**
+
+- Raske hallata ja uuendada suuremates projektides.
+- Koodisegmentide dubleerimise oht.
+- Ei soodusta hea koodi struktuuri ja eraldatust.
+
+### *Internal* (sisemine) skript
+
+**Kasutusotstarve:**
+
+- Väikeste ja keskmise suurusega projektide jaoks, kus koodi maht on hallatav.
+- Kui on vaja koodi testida või katsetada, ilma et peaks looma eraldi JavaScripti faile.
+
+**Eelised:**
+
+- Lihtne arendus ja testimine.
+- Kõik kood on ühes failis, mis võib olla mugav väiksemate projektide puhul.
+
+**Puudused:**
+
+- Suurte projektide puhul muutub HTML-fail segaseks ja keeruliseks hallata.
+- Koodi korduvkasutamise võimalused on piiratud.
+- Ei soodusta koodi selget eraldamist.
+
+### *External* (väline) skript
+
+**Kasutusotstarve:**
+
+- Keskmise suurusega ja suuremate projektide jaoks, kus koodi hallatavus ja korduvkasutamine on olulised.
+- Kui on vaja selget eraldatust HTML ja JavaScripti koodi vahel.
+
+**Eelised:**
+
+- Parandab koodi struktuuri ja loetavust.
+- Lihtsustab koodi hooldamist ja uuendamist.
+- Võimaldab koodi korduvkasutamist mitmes HTML-failis.
+- Võimaldab koodi minimeerimist ja optimeerimist.
+
+**Puudused:**
+
+- Nõuab eraldi faili loomist ja haldamist.
+- Väikeste ja lihtsate skriptide jaoks võib olla liigse keerukusega.
+
+**Eelistatuim meetod edaspidiseks:**
+
+Tavaliselt on soovitatav kasutada **external skripte** suuremate ja keskmise suurusega projektide puhul, kuna see võimaldab paremat koodi struktureerimist, lihtsamat hooldust ja koodi korduvkasutamist. **Internal skriptid** võivad olla kasulikud väiksemate projektide või kiirete katsetuste jaoks. **Inline skripte** tuleks kasutada ainult väga väikeste ja lihtsate skriptide puhul, kus koodi korduvkasutamine ja hallatavus ei ole olulised.
+
+Selle kursuse raames kasutame *external* skripte, kuna siis saame hoida HTML ja JavaScripti koodi eraldi ja asjasse mittepuutuv HTML kood ei hakka meid segama.
+
+## Harjutusülesanded
+
+- **Praktiline ülesanne:**
+  - Loo minimaalne HTML-dokument ja lisa sellele JavaScripti kolmel erineval viisil: *inline*, *internal* ja *external*. Katseta kõigi kolme meetodiga ja vaata, kuidas JavaScripti kood töötab.
+
+- **Küsimused enesekontrolliks:**
+  - Millised on kolm erinevat viisi JavaScripti lisamiseks HTML-dokumendile?
+  - Millal on sobilik kasutada inline-skripte ja millal external-skripte?
+  - Kirjelda minimaalset HTML-struktuuri, kuhu saab JavaScripti lisada.
+  - Mis on external skriptide eelised võrreldes inline ja internal skriptidega?
+
+## Allikad
+
+- [Adding JavaScript to Your Web Pages - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [Using External Scripts - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-src)
+- [Introduction to HTML and JavaScript - Codecademy](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet)

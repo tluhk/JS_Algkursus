@@ -5,10 +5,12 @@ marp: true
 # Programmeerimise algõpetus Javascripti baasil
 
 Martti Raavel
-martti.raavel@tlu.ee
+<martti.raavel@tlu.ee>
 
 ---
-# Esimene loeng
+
+## Esimene loeng
+
 - Sissejuhatus
 - [Mis on programmeerimine?](../../concepts/programmeerimine/README.md)
 - [Mis on algoritm?](../../concepts/algoritm/README.md)
@@ -20,16 +22,19 @@ martti.raavel@tlu.ee
 - [Operaatorid](../../concepts/operaatorid/README.md)
 - [Tingimuslause](../../concepts/tingimuslause/README.md)
 
-
 ---
-# Sissejuhatus
+
+## Sissejuhatus
+
 - Saame tuttavaks
   - Kes, kust, miks?
 - Aine ülesehitus
 - Kodused tööd
 
 ---
-# Aine ülesehitus
+
+## Aine ülesehitus
+
 - Loengud
   - 24.05
   - 31.05
@@ -41,37 +46,49 @@ martti.raavel@tlu.ee
   - Iga loengu lõpus
 
 ---
-# Mis on programmeerimine?
+
+## Mis on programmeerimine?
 
 **Programmeerimine** on protsess, kus luuakse ja rakendatakse **algoritme**, kasutades konkreetset **programmeerimiskeelt** (koodi), et arvutit mingisuguse ülesande täitmiseks juhtida.
 
 ---
-# Mis on algoritm?
+
+## Mis on algoritm?
+
 Algoritm on täpne juhend või protseduur probleemi lahendamiseks või ülesande täitmiseks.
 
-___
-# Mis on JavaScript?
+---
+
+## Mis on JavaScript?
 
 JavaScript on 1990ndate keskpaigas loodud kõrgetasemeline, tõlgendatav programmeerimiskeel, mida peamiselt kasutatakse veebilehtede interaktiivseks muutmiseks.
 
 JavaScript on üks kolmest põhitehnoloogiast, mida kasutatakse veebilehtede ehitamiseks. Teised kaks on **HTML** (HyperText Markup Language), mida kasutatakse veebilehe struktuuri kirjeldamiseks, ja **CSS** (Cascading Style Sheets), mida kasutatakse veebilehe kujundamiseks.
-___
-# Kuidas alustada JavaScripti koodi kirjutamist?
 
-___
-# Programmi sisend ja väljund
+---
+
+## Kuidas alustada JavaScripti koodi kirjutamist?
+
+---
+
+## Programmi sisend ja väljund
+
 - alert();
 - confirm();
 - prompt();
 - console.log();
 
 ---
-# Muutuja
+
+## Muutuja
+
 - Deklareerimine
 - Nimetamine
 
 ---
-# Andmetüübid
+
+## Andmetüübid
+
 - String
 - Number
 - Boolean
@@ -79,49 +96,63 @@ ___
 - Undefined
 
 ---
-# Operaatorid
+
+## Operaatorid
+
 - Aritmeetilised operaatorid
 - Määramisoperaatorid
 - Võrdlusoperaatorid
 - Loogikaoperaatorid
 
 ---
-# Aritmeetilised operaatorid
-- Liitmine
-- Lahutamine
-- Korrutamine
-- Jagamine
+
+## Aritmeetilised operaatorid
+
+- `+` - liitmine
+- `-` - lahutamine
+- `*` - korrutamine
+- `/` - jagamine
 
 ---
-# Määramisoperaatorid
-- =
-- +=
-- -=
-- *=
+
+## Määramisoperaatorid
+
+- `=` - omistamine
+- `+=` - liida ja omista
+- `-=` - lahuta ja omista
+- `*=` - korruta ja omista
 
 ---
-# Võrdlusoperaatorid
-- ==
-- ===
-- !=
-- !==
-- \>
-- \>=
-- \<
-- \<=
+
+## Võrdlusoperaatorid
+
+- `==` - võrdlus
+- `===` - range võrdlus
+- `!=` - mittevõrdne
+- `!==` - rangelt mittevõrdne
+- `\>` - suurem
+- `\>=` - suurem või võrdne
+- `\<` - väiksem
+- `\<=` - väiksem või võrdne
 
 ---
-# Loogikaoperaatorid
-- &&
-- ||
-- !
+
+## Loogikaoperaatorid
+
+- `&&` - loogiline JA
+- `||` - loogiline VÕI
+- `!` - loogiline EI
 
 ---
-# Tingimuslause
-- if
-- else
-- else if
+
+## Tingimuslause
+
+- `if`
+- `else`
+- `else if`
 
 ---
-# Kodune ülesanne
+
+## Kodune ülesanne
+
 - [Kodune ülesanne](./homework.md)
