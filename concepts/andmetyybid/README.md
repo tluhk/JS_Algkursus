@@ -8,7 +8,7 @@
   - [Õpiväljundid](#õpiväljundid)
   - [Andmetüübid JavaScriptis](#andmetüübid-javascriptis)
     - [Primitivsed andmetüübid](#primitivsed-andmetüübid)
-    - [Mitteprimitivsed andmetüübid](#mitteprimitivsed-andmetüübid)
+    - [Andmestruktuurid](#andmestruktuurid)
   - [Primitivsete ja mitteprimitivsete andmetüüpide erinevused](#primitivsete-ja-mitteprimitivsete-andmetüüpide-erinevused)
   - [Harjutusülesanded](#harjutusülesanded)
   - [Allikad](#allikad)
@@ -27,83 +27,89 @@ Selle õppetüki lõpuks peaksid õppijad suutma:
 
 ## Andmetüübid JavaScriptis
 
-JavaScriptis on seitse primitiivset andmetüüpi ja üks mitteprimitiivne andmetüüp (object).
+Javascriptis võime andmetüüpe jagada **primitiivesteks** andmetüüpideks ja andmestruktuurideks.
 
 ### Primitivsed andmetüübid
 
-- **Number:** Terve- ja komaarvud. JavaScriptis pole eraldi tüüpe täisarvude ja ujukomaarvude jaoks.
+- **Number:**. JavaScriptis kasutatakse nii täisarvude, kui ka ujukomaarvude esitamiseks andmetüüpi `Number`.
 
-  ```javascript
-  let age = 30;
-  let temperature = 21.5;
-  ```
+```javascript
+let age = 30;
+let temperature = 21.5;
+```
 
-- **String:** Tekstiline andmetüüp. Stringe saab määratleda ühekordsete või kahekordsete jutumärkidega, kuid soovitatav on kasutada ühekordseid jutumärke või stringi literaali (template literal).
+- **Sõne (*string*):** Tekstiline andmetüüp. Stringe saab määratleda ühekordsete või kahekordsete jutumärkidega, kuid soovitatav on kasutada ühekordseid jutumärke või malliliteraali (template literal).
 
-  ```javascript
-  let firstName = 'John';
-  let greeting = `Hello, ${firstName}!`;
-  ```
+```javascript
+let firstName = 'John'; // ühekordsed jutumärgid
+let greeting = `Hello, ${firstName}!`; // malliliteraal, kus firstName on muutuja
+```
 
-- **Boolean:** Loogilised väärtused, mis võivad olla `true` või `false`.
+- **Tõeväärtus (*boolean*):** Selle andmetüübiga muutujal saab olla kaks väärtust: `true`, ehk *tõene* või `false`, ehk *väär*.
 
-  ```javascript
-  let isStudent = true;
-  let isEmployed = false;
-  ```
+```javascript
+let isStudent = true;
+let isEmployed = false;
+```
 
 - **Undefined:** Muutuja, mis on deklareeritud, kuid millele pole väärtust määratud.
 
-  ```javascript
-  let score;
-  console.log(score); // undefined
-  ```
+```javascript
+let score;
+console.log(score); // undefined
+```
 
-- **Null:** Eraldi andmetüüp, millel on üksainus väärtus `null`. Seda kasutatakse väärtuse tühistamiseks või määramiseks, et väärtus puudub.
+- **Null:** Eraldi andmetüüp, millel on üksainus väärtus `null`. Seda kasutatakse eelneva väärtuse tühistamiseks või muutujale tühja väärtuse määramiseks.
 
-  ```javascript
-  let car = null;
-  ```
+```javascript
+let car = null;
+```
 
 - **Symbol:** Unikaalne ja muutumatu andmetüüp, mis on sageli kasutatav objektide omaduste identifikaatorina.
 
-  ```javascript
-  let symbol = Symbol('unique');
-  ```
+```javascript
+let symbol = Symbol('unique');
+```
+
+> Selle kursuse jooksul me seda andmetüüpi ei käsitle.
 
 - **BigInt:** Suured täisarvud, mis ületavad `Number` andmetüübi suuruspiirangud.
 
-  ```javascript
-  let bigNumber = BigInt(123456789012345678901234567890);
-  ```
+```javascript
+let bigNumber = BigInt(123456789012345678901234567890);
+```
 
-### Mitteprimitivsed andmetüübid
+> Selle kursuse jooksul me seda andmetüüpi ei käsitle.
 
-- **Object:** Kogumik võtme-väärtuse paaridest. Objektid võivad sisaldada mitut primitiivset väärtust ja/või muid objekte.
+### Andmestruktuurid
 
-  ```javascript
-  let person = {
-    name: 'Alice',
-    age: 25,
-    isStudent: true
-  };
-  ```
+- **Massiiv (*Array*):** Andmestruktuur, mis hoiab mitut väärtust ühes muutujas. Massiivid on järjestatud ja indekseeritud alates nullist.
+
+```javascript
+let numbers = [1, 2, 3, 4, 5];
+```
+
+- **Objekt (*Object*):** Kogumik võtme-väärtuse paaridest. Objektid võivad sisaldada mitut primitiivset väärtust ja/või muid objekte.
+
+```javascript
+let person = {
+  name: 'Alice',
+  age: 25,
+  isStudent: true
+};
+```
 
 ## Primitivsete ja mitteprimitivsete andmetüüpide erinevused
 
 - **Primitivsed andmetüübid** on väärtused, mis on muutumatud ja millel puuduvad omadused või meetodid. Iga primitiivne väärtus on erinev.
 
-- **Mitteprimitivsed andmetüübid** (object) on väärtused, mis võivad sisaldada mitut primitiivset väärtust või teisi objekte. Objektid võivad omada omadusi ja meetodeid ning nende väärtuseid saab muuta.
+- **Andmestruktuurid** (*object*) on väärtused, mis võivad sisaldada mitut primitiivset väärtust või teisi objekte. Objektid võivad omada omadusi ja meetodeid ning nende väärtuseid saab muuta.
 
 ## Harjutusülesanded
-
-- **Praktiline ülesanne:**
-  - Deklareeri muutujad, mis esindavad kõiki primitiivseid andmetüüpe. Määra neile sobivad väärtused ja kuva need `console.log` abil.
 
 - **Küsimused enesekontrolliks:**
   - Millised on JavaScripti primitiivsed andmetüübid?
   - Kuidas erineb `undefined` väärtus `null` väärtusest?
-  - Mis on objekti andmetüüp ja kuidas seda kasutatakse?
 
 ## Allikad
 

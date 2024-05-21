@@ -7,4 +7,5 @@ const age = 35;
 const year = 2020;
 let count = 15;
 ```
+
 [Allikas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)

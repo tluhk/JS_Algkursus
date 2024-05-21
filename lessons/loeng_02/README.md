@@ -7,14 +7,7 @@
 ## Teemad
 
 - Millest rääkisime eelmisel korral?
-  - Algoritmid
-  - Muutujad
-  - Sisend/väljund
-  - Andmetüübid
-  - Operaatorid
-  - Tingimuslause
-  - Tõeväärtustabelid
-  - Tüübiteisendus
+- [Tüübiteisendus](../../concepts/tyybiteisendus/README.md)
 - Tsüklid ehk kordused
   - [`for` tsükkel](../../concepts/for/README.md)
   - [`while` tsükkel](../../concepts/while/README.md)

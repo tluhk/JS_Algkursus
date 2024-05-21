@@ -15,19 +15,8 @@
   - Deklareerimine
   - Nimetamine
 - [Andmetüübid](../../concepts/andmetyybid/README.md)
-  - [String](../../concepts/string/README.md)
-  - [Number](../../concepts/number/README.md)
-  - [Boolean](../../concepts/boolean/README.md)
-  - [Null](../../concepts/null/README.md)
-  - [Undefined](../../concepts/undefined/README.md)
 - [Operaatorid](../../concepts/operaatorid/README.md)
-  - [Aritmeetilised operaatorid](../../concepts/aritmeetilisedOperaatorid/README.md)
-  - [Määramisoperaatorid](../../concepts/maaramisOperaatorid/README.md)
-  - [Võrdlusoperaatorid](../../concepts/vordlusOperaatorid/README.md)
-  - [Loogikaoperaatorid](../../concepts/loogikaOperaatorid/README.md)
 - [Tingimuslause](../../concepts/tingimuslause/README.md)
-- [Tõeväärtustabelid](../../concepts/toevaartusTabel/README.md)
-- [Tüübiteisendus](../../concepts/tyybiteisendus/README.md)
 
 ## Kodune ülesanne
 
