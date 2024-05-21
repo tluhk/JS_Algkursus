@@ -36,12 +36,13 @@ Martti Raavel
 ## Aine ülesehitus
 
 - Loengud
-  - 24.05
-  - 31.05
-  - 07.06
-  - 14.06
-  - 21.06
+  - 22.05
+  - 29.05
+  - 05.06
+  - 12.06
+  - 19.06
 - Materjalid Github'is
+- Loengute salvestused
 - Kodused tööd
   - Iga loengu lõpus
 
@@ -63,7 +64,7 @@ Algoritm on täpne juhend või protseduur probleemi lahendamiseks või ülesande
 
 JavaScript on 1990ndate keskpaigas loodud kõrgetasemeline, tõlgendatav programmeerimiskeel, mida peamiselt kasutatakse veebilehtede interaktiivseks muutmiseks.
 
-JavaScript on üks kolmest põhitehnoloogiast, mida kasutatakse veebilehtede ehitamiseks. Teised kaks on **HTML** (HyperText Markup Language), mida kasutatakse veebilehe struktuuri kirjeldamiseks, ja **CSS** (Cascading Style Sheets), mida kasutatakse veebilehe kujundamiseks.
+JavaScript on üks kolmest põhitehnoloogiast, mida kasutatakse veebilehtede ehitamiseks. Teised kaks on **HTML** (*HyperText Markup Language*), mida kasutatakse veebilehe struktuuri kirjeldamiseks, ja **CSS** (*Cascading Style Sheets*), mida kasutatakse veebilehe kujundamiseks.
 
 ---
 

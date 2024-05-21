@@ -25,3 +25,7 @@ Kursusel osalemiseks ei ole vaja eelnevat programmeerimiskogemust, kuid kursusel
 - [Kolmas kohtumine](./lessons/loeng_03/README.md)
 - [Neljas kohtumine](./lessons/loeng_04/README.md)
 - [Viies kohtumine](./lessons/loeng_05/README.md)
+
+## Discordi serveri link
+
+Kui soovid liituda kursuse Discordi serveriga, siis siin on kutse link: <https://discord.gg/qTEGTxBd>
