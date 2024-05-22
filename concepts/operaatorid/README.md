@@ -32,13 +32,12 @@ Näide operaatori kasutamisest:
 let sum = 5 + 3; // + on operaator, mis lisab kaks arvu
 ```
 
-**Avaldis** on koodijupp, millel on väärtus. Avaldised koosnevad tavaliselt muutujatest, väärtustest, operaatoritest ja funktsioonikutsetest, mis on kombineeritud nii, et neil on mingi väärtus. Näiteks arv 5 on avaldis, muutuja `x` on avaldis, ja `5 + 3` on avaldis, mis koosneb kahest väiksemast avaldisest ja ühest operaatorist.
+**Avaldis** on koodijupp, millel on väärtus. Avaldised koosnevad tavaliselt muutujatest, väärtustest, operaatoritest ja funktsioonikutsetest, mis on kombineeritud nii, et neil on mingi väärtus. Näiteks `5 + 3` on avaldis, mis annab tulemuseks `8`. Toodud näites on `5` ja `3` väärtused ning `+` on operaator, mis lisab need kaks väärtust kokku.
 
 Näide avaldise kasutamisest:
 
 ```javascript
-let x = 5; // 5 on avaldis
-let y = x * 2; // x * 2 on avaldis
+let y = x * 2; // x * 2 on avaldis, mis annab tulemuseks 10
 ```
 
 Seega, lühidalt öeldes, operaatorid on vahendid, mida kasutatakse avaldiste loomiseks, ja avaldised on koodijupid, millel on mingi väärtus.

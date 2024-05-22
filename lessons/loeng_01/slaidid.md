@@ -55,7 +55,9 @@ Martti Raavel
 
 ## Mis on algoritm?
 
-Algoritm on täpne juhend või protseduur probleemi lahendamiseks või ülesande täitmiseks.
+Algoritm on samm-sammuline juhis probleemi lahendamiseks või ülesande täitmiseks.
+
+See koosneb lõplikust hulgast selgetest juhistest, mis viivad soovitud tulemuseni.
 
 ---
 
@@ -69,14 +71,117 @@ JavaScript on üks kolmest põhitehnoloogiast, mida kasutatakse veebilehtede ehi
 
 ## Kuidas alustada JavaScripti koodi kirjutamist?
 
+- Koodieditor
+- HTML-dokument
+- JavaScripti kood
+  - inline
+  - internal
+  - external
+
+---
+
+## Koodieditor
+
+Koodieditor aitab kirjutada ja redigeerida koodi.
+
+- koodi esiletõstmine
+- automaatne täiendamine
+- veateated
+- *snippets*
+- ...
+
+---
+
+## HTML-dokument
+
+HTML-i on meil vaja selleks, et me saaksime veebilehel JavaScripti koodi käivitada.
+
+HTML dokumendile on vaja teada anda, et me kasutame JavaScripti ja kus see asub.
+
+---
+
+## Kuidas lisame JavaScripti HTML-dokumendile?
+
+- *inline* (reasisene) skript
+- *internal* (sisemine) skript
+- *external* (väline) skript
+
+> `<script>` element
+
+---
+
+## *Inline* (reasisene) skript
+
+```html
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripti Õppimine</title>
+</head>
+<body>
+    <h1 onclick="alert('Tere!')">Klikka siia</h1>
+</body>
+</html>
+```
+
+---
+
+## *Internal* (sisemine) skript
+
+```html
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripti Õppimine</title>
+    <script>
+        alert('Tere tulemast JavaScripti maailma!');
+    </script>
+</head>
+<body>
+    <h1>Tere tulemast JavaScripti maailma!</h1>
+</body>
+</html>
+```
+
+---
+
+## *External* (väline) skript
+
+**`script.js` fail:**
+
+```javascript
+alert('Tere tulemast JavaScripti maailma!');
+```
+
+**HTML fail:**
+
+```html
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripti Õppimine</title>
+</head>
+<body>
+    <h1>Tere tulemast JavaScripti maailma!</h1>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
 ---
 
 ## Programmi sisend ja väljund
 
-- alert();
-- confirm();
-- prompt();
-- console.log();
+- `alert();`
+- `confirm();`
+- `prompt();`
+- `console.log();`
 
 ---
 
@@ -97,7 +202,28 @@ JavaScript on üks kolmest põhitehnoloogiast, mida kasutatakse veebilehtede ehi
 
 ---
 
-## Operaatorid
+## Operaatorid ja avaldised
+
+- Mis on operaator?
+- Mis on avaldis?
+
+---
+
+## Mis on operaator?
+
+**Operaator** on sümbol või sõna, mida kasutatakse teatud arvutuste tegemiseks. Näiteks matemaatilistes avaldistes on operaatorid nagu pluss (`+`), miinus (`-`), korrutamine (`*`) ja jagamine (`/`).
+
+---
+
+## Mis on avaldis?
+
+**Avaldis** on koodijupp, millel on väärtus. Avaldised koosnevad tavaliselt muutujatest, väärtustest, operaatoritest ja funktsioonikutsetest, mis on kombineeritud nii, et neil on mingi väärtus.
+
+Näiteks `5 + 3` on avaldis, mis annab tulemuseks `8`. Toodud näites on `5` ja `3` väärtused ning `+` on operaator, mis lisab need kaks väärtust kokku.
+
+---
+
+## Operaatorite tüübid
 
 - Aritmeetilised operaatorid
 - Määramisoperaatorid
@@ -147,9 +273,58 @@ JavaScript on üks kolmest põhitehnoloogiast, mida kasutatakse veebilehtede ehi
 
 ## Tingimuslause
 
+Tingimuslause on programmeerimise kontrollstruktuur, mis võimaldab meil teha otsuseid ja käituda vastavalt sellele, kas tingimus on tõene või väär.
+
+---
+
+## Tingimuslause tüübid
+
 - `if`
 - `else`
 - `else if`
+
+---
+
+## `if` tingimuslause
+
+```javascript
+let x = 10;
+
+if (x > 5) {
+    console.log('x on suurem kui 5');
+}
+```
+
+---
+
+## `else` tingimuslause
+
+```javascript
+let x = 10;
+
+if (x > 5) {
+    console.log('x on suurem kui 5');
+} else {
+    console.log('x on väiksem või võrdne 5-ga');
+}
+```
+
+---
+
+## `else if` tingimuslause
+
+```javascript
+
+let x = 10;
+
+if (x > 5) {
+    console.log('x on suurem kui 5');
+} else if (x < 5) {
+    console.log('x on väiksem kui 5');
+} else {
+    console.log('x on võrdne 5-ga');
+}
+```
 
 ---
 
