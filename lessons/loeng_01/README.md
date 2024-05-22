@@ -1,8 +1,8 @@
 # Esimene loeng
 
 - [Esimese loengu slaidid](../loeng_01/slaidid.pdf)
-- [Esimese loengu salvestus]()
-- [Esimeses loenus kirjutatud kood]()
+- [Esimese loengu salvestus](https://youtu.be/sWvXzOx89WM)
+- [Esimeses loengus kirjutatud kood](./code/)
 - [Teine loeng](../loeng_02/README.md)
 
 ## Teemad
@@ -18,6 +18,9 @@
   - Nimetamine
 - [Andmetüübid](../../concepts/andmetyybid/README.md)
 - [Operaatorid](../../concepts/operaatorid/README.md)
+
+## Teemad, mida võiks iseseisvalt läbi lugeda
+
 - [Tingimuslause](../../concepts/tingimuslause/README.md)
 - [Tüübiteisendus](../../concepts/tyybiteisendus/README.md)
 
