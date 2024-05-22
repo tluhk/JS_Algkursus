@@ -7,11 +7,12 @@
 ## Teemad
 
 - Millest rääkisime eelmisel korral?
+- [Tingimuslause](../../concepts/tingimuslause/README.md)
+- 
 - [Tüübiteisendus](../../concepts/tyybiteisendus/README.md)
 - Tsüklid ehk kordused
   - [`for` tsükkel](../../concepts/for/README.md)
   - [`while` tsükkel](../../concepts/while/README.md)
-- [JavaScript eraldi failis](../../concepts/alustamine/README.md#javascript-eraldi-failis)
 
 ## Kodune ülesanne
 

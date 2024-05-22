@@ -1,11 +1,31 @@
 # Kodutöö
 
-- Tutvu esimese loengu materjalidega ja tee kõik näited ise järele. Soovitavalt kirjuta kood ise, mitte ära kopeeri. Kui koodi kirjutamine ei tule välja, siis kopeeri, aga püüa ikkagi aru saada, mida kood teeb.
+## Loe läbi loengus puudutatud teemade materjalid
 
-- Proovi teha selline programm, mis küsib kasutajalt vanust ja vastavalt vanusele väljastab vastuseks:
+- [Mis on programmeerimine?](../../concepts/programmeerimine/README.md)
+- [Mis on algoritm?](../../concepts/algoritm/README.md)
+- [Mis on Javascript?](../../concepts/javascript/README.md)
+- [Kuidas alustada Javascripti koodi kirjutamist?](../../concepts/alustamine/README.md)
+- [Programmi sisend ja väljund](../../concepts/suhtlemine/README.md)
+- [Muutuja](../../concepts/muutuja/README.md)
+- [Andmetüübid](../../concepts/andmetyybid/README.md)
+- [Operaatorid](../../concepts/operaatorid/README.md)
 
-  - Kui kasutaja on vanem, kui 21 aastat, siis ütleb programm vastuseks `Oled piisavalt vana`
-  - Kui kasutaja on noorem, kui 21, siis öeldakse vastuseks `Oled liiga noor`
-  - Kui vanus on 21, siis vastab programm `Täpselt piiri peal`
+## Loe läbi ka järgmised teemad
 
-Ära unusta peale vanuse küsimist vanus numbri kujule muuta ([tüübi teisendust](../../concepts/tyybiteisendus/README.md) e. type casting).
+- [Tingimuslause](../../concepts/tingimuslause/README.md)
+- [Tüübiteisendus](../../concepts/tyybiteisendus/README.md)
+
+## Harjutus
+
+Proovi teha kalkulaator, mis suudab teha liitmistehteid. Kalkulaator peaks küsima kasutajalt esimese liidetava, seejärel teise liidetava, arvutama need kokku ja väljastama tulemuse kasutajale.
+
+### Harjutuse algoritm
+
+```mermaid
+graph TD
+    A[Küsi esimene liidetav ja salvesta muutujasse] --> B[Küsi teine liidetav ja salvesta muutujasse]
+    B --> C[Liida esimene ja teine liidetav ja salvesta tulemus muutujasse]
+    C --> D[Väljasta tulemus]
+
+```
