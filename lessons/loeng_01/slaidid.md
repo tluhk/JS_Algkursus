@@ -36,15 +36,14 @@ Martti Raavel
 ## Aine ülesehitus
 
 - Loengud
-  - 22.05
-  - 29.05
-  - 05.06
-  - 12.06
-  - 19.06
+  - 22.05 kell 10:00 - 13:00
+  - 29.05 kell 10:00 - 13:45
+  - 05.06 kell 10:00 - 13:45
+  - 12.06 kell 10:00 - 13:45
+  - 19.06 kell 10:00 - 13:45
 - Materjalid Github'is
 - Loengute salvestused
 - Kodused tööd
-  - Iga loengu lõpus
 
 ---
 
@@ -151,6 +150,23 @@ JavaScript on üks kolmest põhitehnoloogiast, mida kasutatakse veebilehtede ehi
 - `if`
 - `else`
 - `else if`
+
+---
+
+## Tüübiteisendus / type casting
+
+- Mis on tüübiteisendus?
+- Implicit (ehk vaikimisi) tüübiteisendus
+- Explicit (ehk otsene) tüübiteisendus
+
+---
+
+## Kuidas tüübiteisendusega toime tulla?
+
+- `==` ja `!=` operaatorid
+- `===` ja `!==` operaatorid
+- `Number()`
+- `String()`
 
 ---
 

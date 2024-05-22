@@ -1,6 +1,8 @@
 # Esimene loeng
 
 - [Esimese loengu slaidid](../loeng_01/slaidid.pdf)
+- [Esimese loengu salvestus]()
+- [Esimeses loenus kirjutatud kood]()
 - [Teine loeng](../loeng_02/README.md)
 
 ## Teemad
@@ -17,6 +19,7 @@
 - [Andmetüübid](../../concepts/andmetyybid/README.md)
 - [Operaatorid](../../concepts/operaatorid/README.md)
 - [Tingimuslause](../../concepts/tingimuslause/README.md)
+- [Tüübiteisendus](../../concepts/tyybiteisendus/README.md)
 
 ## Kodune ülesanne
 

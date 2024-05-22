@@ -123,10 +123,10 @@ alert('Tere tulemast JavaScripti maailma!');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScripti Õppimine</title>
-    <script src="script.js" defer></script>
 </head>
 <body>
     <h1>Tere tulemast JavaScripti maailma!</h1>
+    <script src="script.js"></script>
 </body>
 </html>
 ```
