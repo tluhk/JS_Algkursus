@@ -1,4 +1,4 @@
-# Õppetükk 2: Mis on programmeerimine?
+# Programmeerimine?
 
 ## Õpiväljundid
 
