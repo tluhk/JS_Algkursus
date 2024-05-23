@@ -129,9 +129,7 @@ Nagu näha, siis näeb noolfunktsiooni süntaks välja pisut teisiti, kuid selle
 
 ## Harjutused
 
-Loo fail nimega `index.js` (või teise valitud nimega) ja alusta allpool olevate harjutuste lahendamist.
-
-Testi oma koodi, käivitades `index.js` faili node `index.js` käsu abil.
+Loo fail nimega `app.js` (või teise valitud nimega) ja alusta allpool olevate harjutuste lahendamist.
 
 Testi oma koodi erinevate väärtustega
 

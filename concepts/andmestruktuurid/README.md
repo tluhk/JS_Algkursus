@@ -358,9 +358,7 @@ Kõik objekti meetodid on loetletud [Objekti meetodid](https://developer.mozilla
 
 ## Harjutused
 
-Loo fail nimega `index.js` (või mõni muu sinu valikul olev nimi) ja alusta allpool toodud harjutuste lahenduste lisamist.
-
-> Testi alati oma koodi, käivitades `index.js` faili käsu `node index.js` abil.
+Loo fail nimega `app.js` (või mõni muu sinu valikul olev nimi) ja alusta allpool toodud harjutuste lahenduste lisamist.
 
 ### Harjutus 1 - Põhilised massiivi toimingud
 
@@ -385,8 +383,6 @@ for (let i = 0; i < fruits.length; i++) {
   console.log(fruits[i]);
 }
 ```
-
-![Massiiv](array.gif)
 
 </details>
 
@@ -451,8 +447,6 @@ console.log(`Ma sõidan ${car.year} aasta ${car.mark} ${car.model}iga.`);
 ```bash
 Ma sõidan 2019 aasta Toyota Corollaga.
 ```
-
-![Objekt](object.gif)
 
 </details>
 

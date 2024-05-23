@@ -236,9 +236,7 @@ Nagu näha, lõpetab `break` lausend tsükli täitmise, kui tsükli loendur on v
 
 ## Harjutused
 
-Loo fail nimega `index.js` (või teise valitud nimega) ja alusta allpool toodud harjutuste lahenduste lisamist.
-
-Testi oma koodi käivitades `index.js` faili kasutades käsku `node index.js`.
+Loo fail nimega `app.js` (või teise valitud nimega) ja alusta allpool toodud harjutuste lahenduste lisamist.
 
 Testi oma koodi erinevate väärtustega.
 
@@ -269,8 +267,6 @@ for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
 ```
-
-![For loop](forLoop.gif)
 
 </details>
 
