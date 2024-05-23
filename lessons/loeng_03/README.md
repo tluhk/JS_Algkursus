@@ -12,8 +12,7 @@
     - `while` tsükkel
   - Javascript eraldi failis
 - [Funktsioonid](../../concepts/funktsioon/README.md)
-- [Massiiv](../../concepts/massiiv/README.md)
-- Tegevused massiividega
+- [Andmestruktuurid - Massiivid](../../concepts/andmestruktuurid/README.md)
 
 ## Kodune ülesanne
 
