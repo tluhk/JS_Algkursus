@@ -34,4 +34,4 @@ Kursusel osalemiseks ei ole vaja eelnevat programmeerimiskogemust, kuid kursusel
 
 ## Discordi serveri link
 
-Kui soovid liituda kursuse Discordi serveriga, siis siin on [kutse link](https://discord.gg/qTEGTxBd)
+Kui soovid liituda kursuse Discordi serveriga, siis siin on [kutse link](https://discord.gg/kzyZYYgrFk)
