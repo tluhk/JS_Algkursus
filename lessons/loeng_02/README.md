@@ -2,6 +2,8 @@
 
 - [Esimene loeng](../loeng_01/README.md)
 - [Teise loengu slaidid](../loeng_02/slaidid.pdf)
+- [Teise loengu salvestus](https://youtu.be/_T_D9jdqzbE)
+- [Teises loengus kirjutatud kood](./code)
 - [Kolmas loeng](../loeng_03/README.md)
 
 ## Teemad
