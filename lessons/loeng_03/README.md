@@ -7,10 +7,6 @@
 ## Teemad
 
 - Millest rääkisime eelmisel korral?
-  - Tsüklid
-    - `for` tsükkel
-    - `while` tsükkel
-  - Javascript eraldi failis
 - [Funktsioonid](../../concepts/funktsioon/README.md)
 - [Andmestruktuurid - Massiivid](../../concepts/andmestruktuurid/README.md)
 

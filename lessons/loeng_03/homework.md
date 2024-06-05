@@ -14,7 +14,7 @@ Märts
 
 ## Ülesanne 2
 
-Kirjuta JavaScripti kood, mis loob funktsiooni nimega calculateFactorial. See funktsioon peab võtma argumendiks positiivse täisarvu ja tagastama selle arvu faktoriaali. Faktoriaal on arvu ja kõigi sellest väiksemate positiivsete täisarvude korrutis. Näiteks, 5 faktoriaal (mida märgitakse kui 5!) on 5 * 4 * 3 * 2 * 1 = 120.
+Kirjuta JavaScripti kood, mis loob funktsiooni nimega calculateFactorial. See funktsioon peab võtma argumendiks positiivse täisarvu ja tagastama selle arvu faktoriaali. Faktoriaal on arvu ja kõigi sellest väiksemate positiivsete täisarvude korrutis. Näiteks, 5 faktoriaal (mida märgitakse kui 5!) on `5 * 4 * 3 * 2 * 1 = 120`.
 
 ```javascript
 console.log(calculateFactorial(5));  // peaks väljastama 120
