@@ -10,5 +10,4 @@ Proovi teha nn poomismängu, kus arvuti valib mingi hulga sõnade seast suvalise
 
 Mängu selguse huvides võiks mäng ka kuvada sõna, kus on ära märgitud ära arvatud tähed. Näiteks kui sõna on "kass", siis kuvatakse "k _ _ _".
 
-Lahendus(ed) saada e-mailiga aadressile: martti.raavel@tlu.ee
-
+Lahendus(ed) saada e-mailiga aadressile: <martti.raavel@tlu.ee>

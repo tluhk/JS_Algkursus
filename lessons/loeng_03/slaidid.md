@@ -192,7 +192,7 @@ Massiivis olevaid elemente saab kätte nende järjekorranumbri (`index`) järgi,
 
 ---
 
-## Kuidas massiivist väärtuseid kätte saab?
+## Kuidas massiivist väärtuseid kätte saab - näide
 
 ```javascript
 const days = ['Esmaspäev', 'Teisipäev', 'Kolmapäev', 'Neljapäev', 'Reede', 'Laupäev', 'Pühapäev'];

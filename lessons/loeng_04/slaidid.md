@@ -1,15 +1,19 @@
+---
+
+marp: true
+
+---
+
 # Programmeerimise algõpetus Javascripti baasil
 
 Martti Raavel
-martti.raavel@tlu.ee
+<martti.raavel@tlu.ee>
 
 ---
-# Neljas loeng
+
+## Neljas loeng
 
 - Millest rääkisime eelmisel korral?
-    - [Funktsioonid](../../concepts/funktsioon/README.md)
-    - [Massiiv](../../concepts/massiiv/README.md)
-    - Tegevused massiividega
 - [Sisendi kontrollimine](../../concepts/sisendiKontrollimine/README.md)
 - [Tegevused stringidega](../../concepts/string/README.md#stringi-meetodid)
 - [Math funktsioonid](../../concepts/mathMeetodid/README.md)
@@ -17,16 +21,22 @@ martti.raavel@tlu.ee
 
 ---
 
-# Sisendi kontrollimine
+## Millest rääkisime eelmisel korral?
+
+---
+
+## Sisendi kontrollimine
 
 Sisendi kontrollimiseks on mitmeid võimalusi, näiteks:
+
 - kas üldse sisestati midagi?
 - kas sisestatud väärtus on õige tüübiga?
 - kas sisestatud väärtus on õiges vahemikus?
 - kas sisestatud väärtus vastab mõnele muule tingimusele?
 
 ---
-# Väärtuste teisendumine tõeväärtuseks
+
+## Väärtuste teisendumine tõeväärtuseks
 
 | Väärtus | Tõeväärtus |
 | --- | --- |
@@ -38,7 +48,8 @@ Sisendi kontrollimiseks on mitmeid võimalusi, näiteks:
 | `false` | `false` |
 
 ---
-# Väärtuste teisendumine tõeväärtuseks
+
+## Väärtuste teisendumine tõeväärtuseks - Näide
 
 ```javascript
 const age = prompt('Sisesta oma vanus');
@@ -50,7 +61,8 @@ if (!age) {
 ```
 
 ---
-# Sisendi kontrollimine tüübi järgi (typeof)
+
+## Sisendi kontrollimine tüübi järgi (typeof)
 
 ```javascript
 typeof 1; // 'number'
@@ -64,7 +76,7 @@ typeof {}; // 'object'
 
 ---
 
-# Sisendi teisendamine ja kontrollimine (string numbriks)
+## Sisendi teisendamine ja kontrollimine (string numbriks)
 
 ```javascript
 const age = Number(prompt('Sisesta oma vanus'));
@@ -76,7 +88,8 @@ if(age) {
 ```
 
 ---
-# Sisendi kontrollimine kindlate väärtuste suhtes
+
+## Sisendi kontrollimine kindlate väärtuste suhtes
 
 ```javascript
 const choice = prompt('Sisesta oma valik (kivi, paber, käärid)');
@@ -88,7 +101,8 @@ if (choice === 'kivi' || choice === 'paber' || choice === 'käärid') {
 ```
 
 ---
-# Sisendi kontrollimine kindlate väärtuste suhtes
+
+## Sisendi kontrollimine kindlate väärtuste suhtes - massiiviga
 
 ```javascript
 const choices = ['kivi', 'paber', 'käärid'];
@@ -101,7 +115,8 @@ if (choices.includes(choice)) {
 ```
 
 ---
-# Tühikute eemaldamine sisendist (trim())
+
+## Tühikute eemaldamine sisendist (trim())
 
 ```javascript
 const choices = ['kivi', 'paber', 'käärid'];
@@ -112,90 +127,113 @@ if (choices.includes(choice.trim())) {
     console.log('Sisestasid vale valiku');
 }
 ```
+
 ---
-# Ülesanne: Kontrollige, kas sisestatud number on vahemikus 1 kuni 100.
+
+## Ülesanne: Kontrollige, kas sisestatud number on vahemikus 1 kuni 100
 
 Looge funktsioon nimega `checkInRange`, mis võtab argumendina numbri.
 
 Funktsiooni sees kontrollige, kas antud number on suurem kui 1 ja väiksem kui 100.
-Kui see vastab tingimustele, väljastage konsooli sõnum: "Number on vahemikus 1 kuni 100".
-Kui see ei vasta tingimustele, väljastage konsooli sõnum: "Number ei ole vahemikus 1 kuni 100".
+Kui see vastab tingimustele, väljastage konsooli sõnum: 'Number on vahemikus 1 kuni 100'.
+Kui see ei vasta tingimustele, väljastage konsooli sõnum: 'Number ei ole vahemikus 1 kuni 100'.
 
 ---
-# Tegevused stringidega
+
+## Tegevused stringidega
 
 Kuigi stringide puhul on JavaScripti tegemist primitiivse andmetüübiga, on stringidel olemas ka meetodid, mida saab kasutada erinevate toimingute sooritamiseks stringidega. Stringide meetodite puhul JavaScriptis ei ole tegemist otseselt stringi manipuleerimisega, vaid pigem uue stringi loomisega, mis on eelmisest stringist erinev. Ehk stringide meetodid tagastavad uue stringi, mitte ei muuda olemasolevat.
 
 ---
-# Stringi pikkus
+
+## Stringi pikkus
 
 ```javascript
-const name = "John Doe";
+const name = 'John Doe';
 console.log(name.length); // 8
 ```
 
 ---
-# Stringi ühendamine
+
+## Stringi ühendamine
 
 ```javascript
-const firstName = "John";
-const lastName = "Doe";
-const fullName = firstName.concat(" ", lastName);
+const firstName = 'John';
+const lastName = 'Doe';
+const fullName = firstName.concat(' ', lastName);
 console.log(fullName); // John Doe
 ```
 
 ---
-# Väiketähtedeks muutmine
+
+## Väiketähtedeks muutmine
 
 ```javascript
-const name = "John Doe";
+const name = 'John Doe';
 console.log(name.toLowerCase()); // john doe
 ```
 
 ---
-# Suurtähtedeks muutmine
+
+## Suurtähtedeks muutmine
 
 ```javascript
-const name = "John Doe";
+const name = 'John Doe';
 console.log(name.toUpperCase()); // JOHN DOE
 ```
 
 ---
-# Alamstringi olemasolu kontrollimine
+
+## Alamstringi olemasolu kontrollimine
 
 Meetod `includes()` tagastab tõeväärtuse, kas string sisaldab määratud alamstringi.
 
 ```javascript
-const name = "John Doe";
-console.log(name.includes("John")); // true
-console.log(name.includes("Doe")); // true
-console.log(name.includes("john")); // false
+const name = 'John Doe';
+console.log(name.includes('John')); // true
+console.log(name.includes('Doe')); // true
+console.log(name.includes('john')); // false
 ```
 
 ---
-# Stringi poolitamine
+
+## Stringi poolitamine
 
 Meetod `slice()` tagastab stringi osa, mis algab määratud indeksist ja lõpeb määratud indeksiga (indeksid on nullist alates).
 
 ```javascript
-const name = "John Doe";
+const name = 'John Doe';
 console.log(name.slice(0, 4)); // John
 console.log(name.slice(5, 8)); // Doe
 ```
 
 ---
-# Stringi tükeldamine massiiviks
+
+## Stringi tükeldamine massiiviks
 
 Meetod `split()` tagastab massiivi, kus string on tükeldatud määratud alamstringi kohalt.
 
 ```javascript
-const name = "John Doe";
-console.log(name.split(" ")); // ["John", "Doe"]
-console.log(name.split("")); // ["J", "o", "h", "n", " ", "D", "o", "e"]
+const name = 'John Doe';
+console.log(name.split(' ')); // ['John', 'Doe']
+console.log(name.split('')); // ['J', 'o', 'h', 'n', ' ', 'D', 'o', 'e']
 ```
 
 ---
-# Ülesanne: Kontrollige, kas sisestatud string on email.
+
+## Massiivi elementide ühendamine stringiks
+
+Meetod `join()` tagastab massiivi elemendid ühendatuna stringiks.
+
+```javascript
+const name = ['John', 'Doe'];
+console.log(name.join(' ')); // John Doe
+console.log(name.join('')); // JohnDoe
+```
+
+---
+
+## Ülesanne: Kontrollige, kas sisestatud string on email
 
 Looge funktsioon nimega `checkEmail`, mis võtab argumendina stringi.
 
@@ -204,7 +242,8 @@ Kui see vastab emaili formaadile, tagastage `true`.
 Kui see ei vasta emaili formaadile, tagastage `false`.
 
 ---
-# Ülesanne: Looge funktsioon, mis muudab stringi esimese tähe suureks
+
+## Ülesanne: Looge funktsioon, mis muudab stringi esimese tähe suureks
 
 Looge funktsioon nimega `capitalizeFirstLetter`, mis võtab sisendina stringi.
 
@@ -213,29 +252,47 @@ Funktsioonis kasutage JavaScripti stringi meetodeid, et muuta stringi esimene t�
 Tagastage muudetud string.
 
 ---
-# Math objekti omadused ja meetodid
+
+## Ülesanne: Looge funktsioon, mis muudab stringi iga teise tähe suureks
+
+Looge funktsioon nimega `capitalizeEverySecondLetter`, mis võtab sisendina stringi.
+
+Funktsioonis kasutage JavaScripti stringi meetodeid, et muuta stringi iga teine täht suureks.
+
+Tagastage muudetud string.
+
+---
+
+## Math objekti omadused ja meetodid
 
 Math objekt on JavaScripti sisseehitatud objekt, millel on omadused ja meetodid matemaatiliste konstantide ja funktsioonide jaoks.
 
 ---
-# Math objekti omadused (konstandid)
 
-- Math.PI - pi konstant
+## Math objekti omadused (konstandid)
 
----
-# Math objekti meetodid
-- Math.abs(x) - tagastab arvu absoluutväärtuse
-- Math.ceil(x) - tagastab arvu ümardatuna ülespoole
-- Math.floor(x) - tagastab arvu ümardatuna allapoole
-- Math.round(x) - tagastab arvu ümardatuna lähima täisarvuni
-- Math.max(x, y, z, ..., n) - tagastab suurima arvu
-- Math.min(x, y, z, ..., n) - tagastab väikseima arvu
-- Math.pow(x, y) - tagastab arvu x astmes y
-- Math.sqrt(x) - tagastab arvu ruutjuure
-- Math.random() - tagastab suvalise arvu vahemikus 0 kuni 1
+- `Math.PI` - pi konstant
+- `Math.E` - `e` konstant
+- `Math.LN2` - logaritm 2
+- ...
 
 ---
-# Math.random() meetodi kasutamine (täring)
+
+## Math objekti meetodid
+
+- `Math.abs(x)` - tagastab arvu absoluutväärtuse
+- `Math.ceil(x)` - tagastab arvu ümardatuna ülespoole
+- `Math.floor(x)` - tagastab arvu ümardatuna allapoole
+- `Math.round(x)` - tagastab arvu ümardatuna lähima täisarvuni
+- `Math.max(x, y, z, ..., n)` - tagastab suurima arvu
+- `Math.min(x, y, z, ..., n)` - tagastab väikseima arvu
+- `Math.pow(x, y)` - tagastab arvu x astmes y
+- `Math.sqrt(x)` - tagastab arvu ruutjuure
+- `Math.random()` - tagastab suvalise arvu vahemikus 0 kuni 1
+
+---
+
+## Math.random() meetodi kasutamine (täring)
 
 ```javascript
 const dice = Math.floor(Math.random() * 6) + 1;
@@ -243,7 +300,8 @@ console.log(dice);
 ```
 
 ---
-# Ülesanne: Looge funktsioon, mis võtab stringi ja tagastab selle pööratud kujul
+
+## Ülesanne: Looge funktsioon, mis võtab stringi ja tagastab selle pööratud kujul
 
 Looge funktsioon nimega `reverseString`, mis võtab sisendina stringi.
 
@@ -251,6 +309,7 @@ Kasutage JavaScripti stringi ja massiivi meetodeid, et pöörata string ümber.
 Tagastage pööratud string.
 
 ---
-# Kodune ülesanne
+
+## Kodune ülesanne
 
 - [Kodune ülesanne](./homework.md)

@@ -3,6 +3,7 @@
 Väga sageli on meil vaja kontrollida kasutaja poolt sisestatud väärtuse vastavust mingitele tingimustele. Igasuguste kasutaja poolt antud sisendite puhul kipume sageli eeldama, et kasutaja sisestab õige väärtuse, kuid tegelikult ei pruugi see nii olla. Näiteks kui kasutaja peab sisestama oma vanuse, siis võib ta sisestada selleks ka teksti või negatiivse arvu. Selleks, et selliseid vigu vältida, peame me kontrollima kasutaja sisendit.
 
 Sisendi kontrollimiseks on mitmeid võimalusi, näiteks:
+
 - kas üldse sisestati midagi?
 - kas sisestatud väärtus on õige tüübiga?
 - kas sisestatud väärtus on õiges vahemikus?
