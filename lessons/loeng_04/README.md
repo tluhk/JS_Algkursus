@@ -2,6 +2,7 @@
 
 - [Kolmas loeng](../loeng_03/README.md)
 - [Neljanda loengu slaidid](./slaidid.pdf)
+- [Neljanda loengu salvestus](https://youtu.be/RxckJmA76Zs)
 - [Viies loeng](../loeng_05/README.md)
 - [Loengus kirjutatud kood](./app.js)
 
