@@ -1,30 +1,28 @@
 # Programmeerimise algõpetus Javascripti baasil
 
 Martti Raavel
-martti.raavel@tlu.ee
+<martti.raavel@tlu.ee>
 
 ---
-# Viies loeng
+
+## Viies loeng
 
 - Millest rääkisime eelmisel korral?
-    - [Sisendi kontrollimine](../../concepts/sisendiKontrollimine/README.md)
-  - [Tegevused stringidega](../../concepts/string/README.md#stringi-meetodid)
-  - [Math funktsioonid](../../concepts/mathMeetodid/README.md)
 - [Objektid](../../concepts/objektid/README.md)
+- [Objekti manipuleerimine](../../concepts/objektiManipuleerimine/README.md)
 - Harjutused
 
 ---
-# Koduste ülesande lahendus
 
----
-# Objektid
+## Objektid
 
 JavaScriptis, nagu ka paljudes teistes programmeerimiskeeltes, saab objekte võrrelda päriselus olevate objektidega. JavaScripti objektide mõistet saab mõista reaalse elu, käegakatsutavate objektide abil.
 
-JavaScriptis on objekt omaduste ja tüübiga iseseisev olem. Võrrelge seda näiteks tassiga. Tass on ese, millel on omadused. Tassil on värv, kujundus, kaal, materjal, millest see on valmistatud jne. Samamoodi võivad JavaScripti objektidel olla **omadused**.
+Objekt omaduste ja tüübiga iseseisev olem. Võrrelge seda näiteks tassiga. Tass on ese, millel on omadused. Tassil on värv, kujundus, kaal, materjal, millest see on valmistatud jne. Samamoodi võivad JavaScripti objektidel olla **omadused**.
 
 ---
-# Objekti loomine
+
+## Objekti loomine
 
 Objekte saab luua nagu teisigi muutujaid JavaScriptis, kasutades `let` või `const` märksõna. Objekt luuakse kasutades `{}` sulge. Sulgude sisse saab panna objekti omadused ja omaduse väärtuse, eraldades need omavahel kooloniga. Omadusi võib olla rohkem kui üks, eraldades need komaga.
 
@@ -37,7 +35,8 @@ const cup = {
 ```
 
 ---
-# Objekti omadused
+
+## Objekti omadused
 
 Objekti **omadust** saab seletada muutujana, mis on objektiga seotud. Objekti omadused on põhimõtteliselt samad, mis tavalistel JavaScripti muutujatel. Objekti omadustele pääsete juurde lihtsa punktitähise abil:
 
@@ -54,7 +53,8 @@ console.log(cup.material);          // Kuvatakse ceramic
 ```
 
 ---
-# Objekti omadused
+
+## Objekti omadused - funktsioonid
 
 Objekti omadusteks võivad ka olla muud andmestruktuurid ja funktsioonid.
 
@@ -72,27 +72,32 @@ console.log(person.getName());
 
 ---
 
-# Harjutus 1
+## Harjutus 1
 
 Loo raamatu objekt, mis sisaldab järgmiseid omadusi:
+
 - Pealkiri - string
 - Autor - string
 - Lehekülgede arv – number
 - Loetud – tõeväärtus (true/false)
 
 ---
-# Harjutus 2
+
+## Harjutus 2
 
 Loo massiiv, mis sisaldab variatsioone eelnevalt loodud objektist (vähemalt neli erinevat)
 
 ---
-# Harjutus 3
+
+## Harjutus 3
 
 Kirjuta programm, mis teeb järgmist:
+
 - kuvab raamatute arvu
 - kuvab kõikide raamatute pealkirjad
 - kuvab raamatute keskmise lehekülgede arvu
 - kuvab kõik loetud raamatud
 
 ---
-# Küsimused?
+
+## Küsimused?
