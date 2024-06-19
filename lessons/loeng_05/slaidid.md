@@ -1,3 +1,9 @@
+---
+
+marp: true
+
+---
+
 # Programmeerimise algõpetus Javascripti baasil
 
 Martti Raavel
@@ -11,6 +17,10 @@ Martti Raavel
 - [Objektid](../../concepts/objektid/README.md)
 - [Objekti manipuleerimine](../../concepts/objektiManipuleerimine/README.md)
 - Harjutused
+
+---
+
+## Millest rääkimise eelmisel korral?
 
 ---
 
