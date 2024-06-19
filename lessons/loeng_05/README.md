@@ -2,7 +2,7 @@
 
 - [Neljas loeng](../loeng_04/README.md)
 - [Viienda loengu slaidid](./slaidid.pdf)
-
+- [Viienda loengu salvestus](https://youtu.be/c550GvWzKxU)
 - [Loengus kirjutatud kood](./app.js)
 
 ## Teemad
